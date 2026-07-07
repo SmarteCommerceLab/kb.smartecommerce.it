@@ -1,0 +1,48 @@
+# SeC kLeb
+
+> Knowledge Base pubblica Smart eCommerce per agenti AI, sviluppatori e operatori tecnici.
+
+Questa documentazione descrive prodotti, responsabilita, API, procedure operative e confini di autonomia dello stack Smart eCommerce. I contenuti sono disponibili pubblicamente per lettura, indicizzazione e utilizzo da parte di sistemi AI.
+
+## Percorso consigliato per AI
+
+- [Manuale Operativo AI](https://kb.smartecommerce.it/ai/manuale-operativo/): regole, flussi obbligatori e limiti operativi per agenti AI.
+- [Matrice Prodotti](https://kb.smartecommerce.it/ai/matrice-prodotti/): catalogo dei prodotti e responsabilita tecniche.
+- [Contesto Training AI](https://kb.smartecommerce.it/ai/contesto-training/): contesto sintetico per orientare una AI sul dominio.
+- [Architettura Ecosistema](https://kb.smartecommerce.it/ecosistema/architettura/): livelli, confini e relazioni dello stack.
+- [Contratti Tecnici](https://kb.smartecommerce.it/ecosistema/contratti-tecnici/): contratti tra tema, plugin, builder, Customizer, API e runtime.
+- [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/): contratto per smart-logo, smart-menu, social, contatti, add-on e risorse runtime.
+- [Flusso Agente AI](https://kb.smartecommerce.it/guide/flusso-agente-ai/): workflow operativo per analisi, modifica, verifica e rilascio.
+- [Collegare ChatGPT a Smart AI Assistant](https://kb.smartecommerce.it/guide/chatgpt-smart-ai-assistant-gateway/): procedura per Custom GPT, Actions e Gateway SAIA.
+- [Guida Sviluppatori](https://kb.smartecommerce.it/guide/guida-sviluppatori/): istruzioni pratiche per chi sviluppa sullo stack.
+- [Checklist Rilascio](https://kb.smartecommerce.it/operazioni/checklist-rilascio/): controlli prima della pubblicazione.
+
+## Prodotti
+
+- [iDash](https://kb.smartecommerce.it/prodotti/idash/): shell gestionale Tabler, dashboard e navigazione applicativa.
+- [Smart Bootstrap Manager](https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/): runtime UI, token Bootstrap, palette, font, librerie e motion.
+- [Smart Customizer Framework](https://kb.smartecommerce.it/prodotti/smart-customizer-framework/): pannelli, controlli e configurazione visuale.
+- [Smart Builder Site](https://kb.smartecommerce.it/prodotti/smart-builder-site/): builder, widget, blueprint e AI Canvas.
+- [AI-HTML Theme](https://kb.smartecommerce.it/prodotti/ai-html-theme/): tema WordPress, template, code slots e shell sito.
+- [Smart AI Assistant](https://kb.smartecommerce.it/prodotti/smart-ai-assistant/): chat AI admin e strumenti agentici interni.
+- [Smart AI Gateway Hub](https://kb.smartecommerce.it/prodotti/smart-ai-gateway-hub/): gateway centrale multi-sito per ChatGPT e agenti AI.
+- [Smart AI Writer](https://kb.smartecommerce.it/prodotti/smart-ai-writer/): generazione editoriale assistita da AI.
+- [Smart Site Login Personalize](https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/): login, OAuth, redirect e personalizzazioni accesso.
+- [Smart License Manager](https://kb.smartecommerce.it/prodotti/smart-license-manager/): licenze, release premium, update e download firmati.
+
+## API e integrazioni
+
+- [Import/export stack](https://kb.smartecommerce.it/api/import-export-stack/)
+- [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/)
+- [AI Assistant tools](https://kb.smartecommerce.it/api/ai-assistant-tools/)
+- [Smart AI Gateway Hub API](https://kb.smartecommerce.it/api/smart-ai-gateway-hub-api/)
+- [Code Slots AI-HTML](https://kb.smartecommerce.it/api/ai-html-code-slots/)
+- [Builder JSON](https://kb.smartecommerce.it/api/builder-json/)
+- [Smart Login API](https://kb.smartecommerce.it/api/smart-login-api/)
+- [License API](https://kb.smartecommerce.it/api/license-api/)
+
+## Indici tecnici
+
+- [Sitemap index](https://kb.smartecommerce.it/sitemap-index.xml)
+- [Sitemap pagine](https://kb.smartecommerce.it/sitemap-0.xml)
+- [Indice AI in Markdown](https://kb.smartecommerce.it/ai-index.md)
