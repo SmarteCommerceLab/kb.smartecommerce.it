@@ -69,6 +69,7 @@ export default defineConfig({
 				{
 					label: 'API e integrazioni',
 					items: [
+						{ label: 'API e Swagger', slug: 'api/swagger-index' },
 						{ label: 'Import/export stack', slug: 'api/import-export-stack' },
 						{ label: 'Manifest AI-HTML', slug: 'api/ai-html-integration-manifest' },
 						{ label: 'AI Assistant tools', slug: 'api/ai-assistant-tools' },
