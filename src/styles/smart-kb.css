@@ -156,9 +156,31 @@ body {
 }
 
 .sl-markdown-content table {
+	width: 100%;
+	min-width: 100%;
 	border: 1px solid var(--smart-line);
 	border-radius: 8px;
 	overflow: hidden;
+	border-spacing: 0;
+}
+
+.sl-markdown-content :is(th, td) {
+	padding: .75rem 1rem;
+	vertical-align: top;
+	line-height: 1.45;
+	overflow-wrap: normal;
+	word-break: normal;
+	hyphens: none;
+}
+
+.sl-markdown-content :is(th, td):first-child {
+	width: 1%;
+	padding-inline-start: 1rem;
+	white-space: nowrap;
+}
+
+.sl-markdown-content :is(th, td):last-child {
+	padding-inline-end: 1rem;
 }
 
 .sl-markdown-content th {
@@ -168,8 +190,19 @@ body {
 	text-transform: none;
 }
 
-.sl-markdown-content td {
-	vertical-align: top;
+@media (max-width: 50rem) {
+	.sl-markdown-content table {
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+
+	.sl-markdown-content :is(th, td) {
+		min-width: 15rem;
+	}
+
+	.sl-markdown-content :is(th, td):first-child {
+		min-width: 10rem;
+	}
 }
 
 code {
