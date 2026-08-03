@@ -11,6 +11,7 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 - [Architettura ecosistema](https://kb.smartecommerce.it/ecosistema/architettura/)
 - [Contratti tecnici](https://kb.smartecommerce.it/ecosistema/contratti-tecnici/)
 - [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/)
+- [KnowledgePack API](https://kb.smartecommerce.it/api/knowledge-packs/)
 
 ## Prodotti
 
@@ -22,6 +23,7 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 - [Smart AI Assistant](https://kb.smartecommerce.it/prodotti/smart-ai-assistant/)
 - [Smart AI Gateway Hub](https://kb.smartecommerce.it/prodotti/smart-ai-gateway-hub/)
 - [Smart AI Writer](https://kb.smartecommerce.it/prodotti/smart-ai-writer/)
+- [Smart Cleaner Reset](https://kb.smartecommerce.it/prodotti/smart-cleaner-reset/)
 - [Smart Site Login Personalize](https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/)
 - [Smart License Manager](https://kb.smartecommerce.it/prodotti/smart-license-manager/)
 
@@ -37,6 +39,8 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 
 ## API e integrazioni
 
+- [KnowledgePack runtime](https://kb.smartecommerce.it/v1/packs)
+- [KnowledgePack API](https://kb.smartecommerce.it/api/knowledge-packs/)
 - [Import/export stack](https://kb.smartecommerce.it/api/import-export-stack/)
 - [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/)
 - [AI Assistant tools](https://kb.smartecommerce.it/api/ai-assistant-tools/)
@@ -50,4 +54,4 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 
 Prima di modificare codice, contenuti o configurazioni, identificare il prodotto proprietario della responsabilita. Non correggere un problema nel livello sbagliato. Usare il Manuale operativo AI e la Matrice prodotti come prime fonti.
 
-Per agenti esterni come ChatGPT, Custom GPT, Claude o Perplexity, usare Smart AI Assistant Gateway come unico punto di ingresso operativo: leggere `/ai/context`, pianificare con `/ai/plan`, creare operations e usare dry-run/conferma prima di scrivere.
+Smart AI Studio e il punto di ingresso operativo per l'utente. Lo Studio seleziona la AI privata o un provider BYOK, risolve i KnowledgePack compatibili e invia operazioni tipizzate al plugin Smart AI Studio installato nel sito. Il gateway resta un componente tecnico opzionale e non guida il flusso consumer.

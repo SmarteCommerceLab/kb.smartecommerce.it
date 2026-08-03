@@ -50,6 +50,7 @@ export default defineConfig({
 						{ label: 'Smart AI Assistant', slug: 'prodotti/smart-ai-assistant' },
 						{ label: 'Smart AI Gateway Hub', slug: 'prodotti/smart-ai-gateway-hub' },
 						{ label: 'Smart AI Writer', slug: 'prodotti/smart-ai-writer' },
+						{ label: 'Smart Cleaner Reset', slug: 'prodotti/smart-cleaner-reset' },
 						{ label: 'Smart Site Login Personalize', slug: 'prodotti/smart-site-login-personalize' },
 						{ label: 'Smart License Manager', slug: 'prodotti/smart-license-manager' },
 					],
@@ -70,6 +71,7 @@ export default defineConfig({
 					label: 'API e integrazioni',
 					items: [
 						{ label: 'API e Swagger', slug: 'api/swagger-index' },
+						{ label: 'KnowledgePack API', slug: 'api/knowledge-packs' },
 						{ label: 'Import/export stack', slug: 'api/import-export-stack' },
 						{ label: 'Manifest AI-HTML', slug: 'api/ai-html-integration-manifest' },
 						{ label: 'AI Assistant tools', slug: 'api/ai-assistant-tools' },

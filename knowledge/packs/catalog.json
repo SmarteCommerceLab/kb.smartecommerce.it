@@ -1,0 +1,138 @@
+{
+  "schema": "smart-ecommerce.knowledge-pack-source-index",
+  "schema_version": 1,
+  "items": [
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "smart-site-quality",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [],
+      "workflows": ["site_plan", "page_layout", "canvas_generation", "content_generation"],
+      "summary": "Regole trasversali per siti Smart eCommerce accessibili, responsive, leggibili e orientati alla conversione.",
+      "rules": [
+        "Usa una gerarchia informativa evidente e un solo obiettivo primario per sezione.",
+        "Mantieni CTA specifiche, contrasto accessibile e contenuti verificabili.",
+        "Progetta desktop e mobile senza sovrapposizioni, testo tagliato o componenti instabili.",
+        "Non copiare i siti sorgente: riusa pattern approvati adattandoli al brief."
+      ],
+      "document_paths": [
+        "ai/manuale-operativo.md",
+        "ai/contesto-training.md",
+        "guide/authoring-ai-canvas.md"
+      ],
+      "source_url": "https://kb.smartecommerce.it/ai/manuale-operativo/",
+      "published_at": "2026-08-03T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "ai-html-contracts",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [{"slug": "ai-html", "version_range": "*"}],
+      "workflows": ["site_plan", "page_layout", "canvas_generation"],
+      "summary": "Contratti AI-HTML per shell del sito, pagine, menu, opzioni, code slot e risorse globali.",
+      "rules": [
+        "Leggi il manifest AI-HTML prima di usare logo, menu, social, contatti o form.",
+        "Non creare link di navigazione statici quando WordPress espone un menu assegnato.",
+        "Mantieni le pagine in bozza fino alla verifica governata."
+      ],
+      "document_paths": [
+        "prodotti/ai-html-theme.md",
+        "api/ai-html-integration-manifest.md",
+        "api/ai-html-code-slots.md"
+      ],
+      "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
+      "published_at": "2026-08-03T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "sbs-builder-contracts",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [{"slug": "smart-builder-site", "version_range": "*"}],
+      "workflows": ["page_layout", "canvas_generation"],
+      "summary": "Contratti Smart Builder Site per blueprint JSON, widget registry, Builder e Compose.",
+      "rules": [
+        "Usa soltanto widget e campi presenti nel catalogo capability del sito.",
+        "Valida il Builder JSON prima della preparazione del work package.",
+        "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget."
+      ],
+      "document_paths": [
+        "prodotti/smart-builder-site.md",
+        "api/builder-json.md"
+      ],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
+      "published_at": "2026-08-03T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "sbm-design-runtime",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [{"slug": "smart-bootstrap-manager", "version_range": "*"}],
+      "workflows": ["site_plan", "page_layout", "canvas_generation"],
+      "summary": "Governance Smart Bootstrap Manager per token grafici, Bootstrap, responsive e diagnostica.",
+      "rules": [
+        "Usa i token SBM come fonte unica per colore, spaziatura, tipografia e modalita tema.",
+        "Non duplicare Bootstrap e non introdurre utility non dichiarate dal runtime.",
+        "Verifica breakpoint e contrasto prima della pubblicazione."
+      ],
+      "document_paths": ["prodotti/smart-bootstrap-manager.md"],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
+      "published_at": "2026-08-03T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "scf-customizer-governance",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [{"slug": "smart-customizer-frameworks", "version_range": "*"}],
+      "workflows": ["site_plan", "page_layout"],
+      "summary": "Contratti Smart Customizer Frameworks per controlli, componenti e impostazioni globali del sito.",
+      "rules": [
+        "Modifica soltanto impostazioni esposte e scrivibili dal catalogo SCF.",
+        "Mantieni separate impostazioni globali e contenuto locale delle pagine.",
+        "Registra pre-stato e strategia di rollback per ogni variazione globale."
+      ],
+      "document_paths": ["prodotti/smart-customizer-framework.md"],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-customizer-framework/",
+      "published_at": "2026-08-03T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "cleaner-reset-safety",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [{"slug": "smart-cleaner-reset", "version_range": "*"}],
+      "workflows": ["site_reset", "rollback"],
+      "summary": "Regole Smart Cleaner Reset per snapshot, pulizia selettiva, ripristino e reset completo.",
+      "rules": [
+        "Crea sempre uno snapshot verificato prima di una cancellazione.",
+        "Separa reset dei contenuti, configurazioni e prodotti Smart eCommerce.",
+        "Il reset completo richiede conferma esplicita e piano di ripristino."
+      ],
+      "document_paths": ["prodotti/smart-cleaner-reset.md"],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-cleaner-reset/",
+      "published_at": "2026-08-03T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    }
+  ]
+}

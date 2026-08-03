@@ -3,10 +3,12 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "prebuild": "node scripts/build-knowledge-packs.mjs",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "test:knowledge": "node scripts/verify-knowledge-packs.mjs",
     "deploy:ftp": "powershell -ExecutionPolicy Bypass -File scripts/deploy-ftp.ps1",
     "astro": "astro"
   },

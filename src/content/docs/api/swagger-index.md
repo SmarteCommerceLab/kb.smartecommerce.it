@@ -7,6 +7,10 @@ Questa sezione raccoglie i contratti API pubblicati su Smart Repository.
 La UI Swagger resta centralizzata, mentre ogni prodotto mantiene il proprio
 contratto OpenAPI in formato YAML e JSON.
 
+Il catalogo della conoscenza non appartiene al repository software. I manifest
+versionati usati dalla AI sono pubblicati dalla [KnowledgePack API](/api/knowledge-packs/)
+e dal relativo endpoint runtime `https://kb.smartecommerce.it/v1/packs`.
+
 ## Catalogo centrale
 
 - [Indice Swagger prodotti](https://repository.smartecommerce.it/swagger/products/)

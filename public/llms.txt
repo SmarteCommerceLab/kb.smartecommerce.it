@@ -12,6 +12,7 @@ Questa documentazione descrive prodotti, responsabilita, API, procedure operativ
 - [Architettura Ecosistema](https://kb.smartecommerce.it/ecosistema/architettura/): livelli, confini e relazioni dello stack.
 - [Contratti Tecnici](https://kb.smartecommerce.it/ecosistema/contratti-tecnici/): contratti tra tema, plugin, builder, Customizer, API e runtime.
 - [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/): contratto per smart-logo, smart-menu, social, contatti, add-on e risorse runtime.
+- [KnowledgePack API](https://kb.smartecommerce.it/api/knowledge-packs/): catalogo canonico, versioni, compatibilita e digest della conoscenza usata da Smart AI Studio.
 - [Flusso Agente AI](https://kb.smartecommerce.it/guide/flusso-agente-ai/): workflow operativo per analisi, modifica, verifica e rilascio.
 - [Collegare ChatGPT a Smart AI Assistant](https://kb.smartecommerce.it/guide/chatgpt-smart-ai-assistant-gateway/): procedura per Custom GPT, Actions e Gateway SAIA.
 - [Guida Sviluppatori](https://kb.smartecommerce.it/guide/guida-sviluppatori/): istruzioni pratiche per chi sviluppa sullo stack.
@@ -27,11 +28,14 @@ Questa documentazione descrive prodotti, responsabilita, API, procedure operativ
 - [Smart AI Assistant](https://kb.smartecommerce.it/prodotti/smart-ai-assistant/): chat AI admin e strumenti agentici interni.
 - [Smart AI Gateway Hub](https://kb.smartecommerce.it/prodotti/smart-ai-gateway-hub/): gateway centrale multi-sito per ChatGPT e agenti AI.
 - [Smart AI Writer](https://kb.smartecommerce.it/prodotti/smart-ai-writer/): generazione editoriale assistita da AI.
+- [Smart Cleaner Reset](https://kb.smartecommerce.it/prodotti/smart-cleaner-reset/): pulizia, snapshot, ripristino e reset governato di WordPress.
 - [Smart Site Login Personalize](https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/): login, OAuth, redirect e personalizzazioni accesso.
 - [Smart License Manager](https://kb.smartecommerce.it/prodotti/smart-license-manager/): licenze, release premium, update e download firmati.
 
 ## API e integrazioni
 
+- [KnowledgePack runtime](https://kb.smartecommerce.it/v1/packs)
+- [KnowledgePack API](https://kb.smartecommerce.it/api/knowledge-packs/)
 - [Import/export stack](https://kb.smartecommerce.it/api/import-export-stack/)
 - [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/)
 - [AI Assistant tools](https://kb.smartecommerce.it/api/ai-assistant-tools/)
