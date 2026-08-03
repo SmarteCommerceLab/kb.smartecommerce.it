@@ -29,6 +29,7 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 
 ## Guide operative
 
+- [Attivare Smart AI Studio](https://kb.smartecommerce.it/guide/attivare-smart-ai-studio/)
 - [Installazione stack WordPress](https://kb.smartecommerce.it/guide/installazione-stack-wordpress/)
 - [Flusso agente AI](https://kb.smartecommerce.it/guide/flusso-agente-ai/)
 - [Collegare ChatGPT a Smart AI Assistant](https://kb.smartecommerce.it/guide/chatgpt-smart-ai-assistant-gateway/)

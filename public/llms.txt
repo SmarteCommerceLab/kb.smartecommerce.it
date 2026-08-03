@@ -13,6 +13,7 @@ Questa documentazione descrive prodotti, responsabilita, API, procedure operativ
 - [Contratti Tecnici](https://kb.smartecommerce.it/ecosistema/contratti-tecnici/): contratti tra tema, plugin, builder, Customizer, API e runtime.
 - [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/): contratto per smart-logo, smart-menu, social, contatti, add-on e risorse runtime.
 - [KnowledgePack API](https://kb.smartecommerce.it/api/knowledge-packs/): catalogo canonico, versioni, compatibilita e digest della conoscenza usata da Smart AI Studio.
+- [Attivare Smart AI Studio](https://kb.smartecommerce.it/guide/attivare-smart-ai-studio/): percorso cliente governato dalla richiesta al primo sito WordPress operativo.
 - [Flusso Agente AI](https://kb.smartecommerce.it/guide/flusso-agente-ai/): workflow operativo per analisi, modifica, verifica e rilascio.
 - [Collegare ChatGPT a Smart AI Assistant](https://kb.smartecommerce.it/guide/chatgpt-smart-ai-assistant-gateway/): procedura per Custom GPT, Actions e Gateway SAIA.
 - [Guida Sviluppatori](https://kb.smartecommerce.it/guide/guida-sviluppatori/): istruzioni pratiche per chi sviluppa sullo stack.

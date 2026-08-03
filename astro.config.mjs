@@ -58,6 +58,7 @@ export default defineConfig({
 				{
 					label: 'Guide operative',
 					items: [
+						{ label: 'Attivare Smart AI Studio', slug: 'guide/attivare-smart-ai-studio' },
 						{ label: 'Installazione stack WordPress', slug: 'guide/installazione-stack-wordpress' },
 						{ label: 'Flusso agente AI', slug: 'guide/flusso-agente-ai' },
 						{ label: 'Collegare ChatGPT a SAIA', slug: 'guide/chatgpt-smart-ai-assistant-gateway' },
