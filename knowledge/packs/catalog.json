@@ -31,7 +31,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "ai-html", "version_range": "*"}],
@@ -40,6 +40,9 @@
       "rules": [
         "Leggi il manifest AI-HTML prima di usare logo, menu, social, contatti o form.",
         "Non creare link di navigazione statici quando WordPress espone un menu assegnato.",
+        "Per header_full e footer_full separa HTML, CSS e JS e dichiara sempre design_mode.",
+        "Se la governance globale e governed, non usare valori visuali hardcoded: consuma token --bs-*, --sbin-* o --canvas-*.",
+        "Salva Canvas non verificati come inattivi e attivali solo dopo validazione e conferma.",
         "Mantieni le pagine in bozza fino alla verifica governata."
       ],
       "document_paths": [
@@ -80,7 +83,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbm-design-runtime",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "smart-bootstrap-manager", "version_range": "*"}],
@@ -88,6 +91,7 @@
       "summary": "Governance e API AI Smart Bootstrap Manager per token grafici, Bootstrap, responsive, validazione e diagnostica.",
       "rules": [
         "Usa i token SBM come fonte unica per colore, spaziatura, tipografia e modalita tema.",
+        "In modalita governed considera bloccanti colori, font, spacing, scala tipografica e radius non derivati da token semantici.",
         "Non duplicare Bootstrap e non introdurre utility non dichiarate dal runtime.",
         "Leggi context e schema, valida il payload, mostra il diff e ottieni conferma prima di scrivere.",
         "Verifica breakpoint e contrasto prima della pubblicazione.",

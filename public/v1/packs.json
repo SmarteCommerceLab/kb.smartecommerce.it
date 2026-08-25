@@ -57,7 +57,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -75,6 +75,9 @@
       "rules": [
         "Leggi il manifest AI-HTML prima di usare logo, menu, social, contatti o form.",
         "Non creare link di navigazione statici quando WordPress espone un menu assegnato.",
+        "Per header_full e footer_full separa HTML, CSS e JS e dichiara sempre design_mode.",
+        "Se la governance globale e governed, non usare valori visuali hardcoded: consuma token --bs-*, --sbin-* o --canvas-*.",
+        "Salva Canvas non verificati come inattivi e attivali solo dopo validazione e conferma.",
         "Mantieni le pagine in bozza fino alla verifica governata."
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
@@ -85,7 +88,7 @@
           "document_id": "prodotti-ai-html-theme",
           "path": "prodotti/ai-html-theme.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
-          "sha256": "6d011ca34217f5f5d372b921e268ac4d22f6ebfb5c9cfb3beb2a03e477c694bf",
+          "sha256": "b800781e533104dbc783cc41faa66c9b14a20d93cea85956ad73aeb47c53758c",
           "content_type": "text/markdown"
         },
         {
@@ -99,7 +102,7 @@
           "document_id": "api-ai-html-code-slots",
           "path": "api/ai-html-code-slots.md",
           "source_url": "https://kb.smartecommerce.it/api/ai-html-code-slots/",
-          "sha256": "409989f6d13cea53f56842a3cd02b9edacea36d3fbb7d82026a8ed186ee5d600",
+          "sha256": "2f1c6daf5e3143676cd89b3ecb95b5c61fa80bdd3572c566bfb995a32941c228",
           "content_type": "text/markdown"
         },
         {
@@ -113,11 +116,11 @@
           "document_id": "guide-ai-commerciali-chat-classica",
           "path": "guide/ai-commerciali-chat-classica.md",
           "source_url": "https://kb.smartecommerce.it/guide/ai-commerciali-chat-classica/",
-          "sha256": "e9ba610ebfa34f79c6db22f356101ebc7eaaa5b6083c86befd773871f7769d5a",
+          "sha256": "afd518085896201c7900f60235175b8368d47a45207a34563d48aab3a2d9c1ea",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:a9aa7fc535f5c58f8e57a39156ca004ed66cf0d650e5e010efb2abc5458f20d8"
+      "digest": "sha256:7f1818be0d27cbc5768eb321fa7e2d0ce87c86af2833eebf928a1a40c2e543ee"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -167,7 +170,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbm-design-runtime",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -188,6 +191,7 @@
       "summary": "Governance e API AI Smart Bootstrap Manager per token grafici, Bootstrap, responsive, validazione e diagnostica.",
       "rules": [
         "Usa i token SBM come fonte unica per colore, spaziatura, tipografia e modalita tema.",
+        "In modalita governed considera bloccanti colori, font, spacing, scala tipografica e radius non derivati da token semantici.",
         "Non duplicare Bootstrap e non introdurre utility non dichiarate dal runtime.",
         "Leggi context e schema, valida il payload, mostra il diff e ottieni conferma prima di scrivere.",
         "Verifica breakpoint e contrasto prima della pubblicazione.",
@@ -233,7 +237,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:fc44a2432cb9939ec7c1d1cf0e4f5342d4b0132c79f93cb5d7bc712d1dcf61b4"
+      "digest": "sha256:4fe15675a4b4d77af4db4670eaaaeda77f42c4822f568f8ce9c20aafa5778405"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

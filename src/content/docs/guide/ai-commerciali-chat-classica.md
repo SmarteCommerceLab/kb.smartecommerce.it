@@ -66,6 +66,30 @@ Se questi dati non sono disponibili, la AI deve produrre una bozza e indicare ch
 
 La chat non deve restituire PHP da incollare nel Canvas. Non deve creare un secondo Bootstrap, un secondo header globale o link di navigazione statici.
 
+Per `header_full` e `footer_full` deve inoltre leggere [Code Slots AI-HTML](/api/ai-html-code-slots/) e il consumer contract SBM. Se la modalita globale e `governed`, ogni valore visuale deve derivare da token semantici; un risultato con colori, font, spacing, scala tipografica o radius hardcoded e da considerare non valido prima dell'inserimento.
+
+## Prova cieca di una chat commerciale
+
+Per valutare realisticamente ChatGPT, Claude o Gemini senza vantaggi indebiti:
+
+1. aprire una nuova conversazione senza memoria del progetto;
+2. fornire soltanto il brief, gli URL pubblici della KB e un Manifest AI-HTML redatto dei segreti;
+3. non allegare repository, sorgenti PHP, test, payload corretti precedenti o messaggi del validatore;
+4. chiedere prima un piano del sito e poi gli artefatti uno alla volta;
+5. conservare integralmente prompt e risposte;
+6. validare gli output con gli endpoint dei prodotti senza correggerli manualmente;
+7. misurare primo esito, numero di tentativi e violazioni.
+
+La prova supera il requisito minimo quando la AI:
+
+- assegna correttamente responsabilita ad AI-HTML, SBS e SBM;
+- non inventa risorse WordPress;
+- produce payload JSON validi e codice separato per destinazione;
+- usa componenti runtime per logo, menu, social, contatti e form;
+- rispetta il `design_mode` e i token;
+- mantiene pagine e slot non attivi fino alla verifica;
+- non richiede credenziali nel prompt.
+
 ## Quando usare Smart AI Studio
 
 Usare Smart AI Studio, e non la sola chat classica, quando occorre:

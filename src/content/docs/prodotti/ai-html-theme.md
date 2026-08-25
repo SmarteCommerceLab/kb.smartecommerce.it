@@ -3,7 +3,7 @@ title: AI-HTML Theme
 description: Tema base Smart eCommerce, header, footer, template, API e Code Slots.
 ---
 
-AI-HTML `1.14.4` e il tema base dell'ecosistema Smart eCommerce. Fornisce cornice sito, template, menu, header, footer, SEO, bridge verso plugin e Code Slots.
+AI-HTML `1.14.9` e il tema base dell'ecosistema Smart eCommerce. Fornisce cornice sito, template, menu, header, footer, SEO, bridge verso plugin e Code Slots.
 
 ## Responsabilita
 
@@ -16,6 +16,8 @@ AI-HTML `1.14.4` e il tema base dell'ecosistema Smart eCommerce. Fornisce cornic
 ## Code Slots
 
 I Code Slots permettono di aggiungere o sostituire blocchi controllati del tema, per esempio header e footer. Gli slot sono ordinati per hook e priorita.
+
+Gli override completi `header_full` e `footer_full` sono sottoposti alla governance SBM. In modalita `governed`, un Canvas con valori visuali hardcoded viene salvato ma resta disattivato finche non usa token semantici conformi.
 
 Endpoint principale:
 
