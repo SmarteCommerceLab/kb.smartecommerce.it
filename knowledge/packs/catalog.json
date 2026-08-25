@@ -31,7 +31,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "ai-html", "version_range": "*"}],
@@ -45,7 +45,9 @@
       "document_paths": [
         "prodotti/ai-html-theme.md",
         "api/ai-html-integration-manifest.md",
-        "api/ai-html-code-slots.md"
+        "api/ai-html-code-slots.md",
+        "api/wordpress-runtime-canvas.md",
+        "guide/ai-commerciali-chat-classica.md"
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
       "published_at": "2026-08-03T00:00:00Z",
@@ -78,20 +80,28 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbm-design-runtime",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "smart-bootstrap-manager", "version_range": "*"}],
-      "workflows": ["site_plan", "page_layout", "canvas_generation"],
-      "summary": "Governance Smart Bootstrap Manager per token grafici, Bootstrap, responsive e diagnostica.",
+      "workflows": ["site_plan", "page_layout", "canvas_generation", "inspect_site", "validate", "execute", "verify"],
+      "summary": "Governance e API AI Smart Bootstrap Manager per token grafici, Bootstrap, responsive, validazione e diagnostica.",
       "rules": [
         "Usa i token SBM come fonte unica per colore, spaziatura, tipografia e modalita tema.",
         "Non duplicare Bootstrap e non introdurre utility non dichiarate dal runtime.",
-        "Verifica breakpoint e contrasto prima della pubblicazione."
+        "Leggi context e schema, valida il payload, mostra il diff e ottieni conferma prima di scrivere.",
+        "Verifica breakpoint e contrasto prima della pubblicazione.",
+        "Consulta audit e revisioni dopo ogni modifica."
       ],
-      "document_paths": ["prodotti/smart-bootstrap-manager.md"],
+      "document_paths": [
+        "prodotti/smart-bootstrap-manager.md",
+        "api/smart-bootstrap-manager-ai-api.md",
+        "guide/smart-bootstrap-manager-ai-workflow.md",
+        "api/import-export-stack.md",
+        "api/wordpress-runtime-canvas.md"
+      ],
       "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
-      "published_at": "2026-08-03T00:00:00Z",
+      "published_at": "2026-08-25T00:00:00Z",
       "reviewed_by": "Smart eCommerce Engineering"
     },
     {

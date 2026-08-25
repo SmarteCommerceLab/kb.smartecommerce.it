@@ -32,9 +32,11 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 - [Attivare Smart AI Studio](https://kb.smartecommerce.it/guide/attivare-smart-ai-studio/)
 - [Installazione stack WordPress](https://kb.smartecommerce.it/guide/installazione-stack-wordpress/)
 - [Flusso agente AI](https://kb.smartecommerce.it/guide/flusso-agente-ai/)
+- [AI commerciali dalla chat classica](https://kb.smartecommerce.it/guide/ai-commerciali-chat-classica/)
 - [Collegare ChatGPT a Smart AI Assistant](https://kb.smartecommerce.it/guide/chatgpt-smart-ai-assistant-gateway/)
 - [Guida sviluppatori](https://kb.smartecommerce.it/guide/guida-sviluppatori/)
 - [Authoring AI Canvas](https://kb.smartecommerce.it/guide/authoring-ai-canvas/)
+- [Governare Smart Bootstrap Manager con una AI](https://kb.smartecommerce.it/guide/smart-bootstrap-manager-ai-workflow/)
 - [Aggiornamento documentazione](https://kb.smartecommerce.it/guide/aggiornare-documentazione/)
 - [Checklist rilascio](https://kb.smartecommerce.it/operazioni/checklist-rilascio/)
 
@@ -42,8 +44,10 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 
 - [KnowledgePack runtime](https://kb.smartecommerce.it/v1/packs)
 - [KnowledgePack API](https://kb.smartecommerce.it/api/knowledge-packs/)
+- [API AI Smart Bootstrap Manager](https://kb.smartecommerce.it/api/smart-bootstrap-manager-ai-api/)
 - [Import/export stack](https://kb.smartecommerce.it/api/import-export-stack/)
 - [Manifest AI-HTML](https://kb.smartecommerce.it/api/ai-html-integration-manifest/)
+- [Runtime WordPress per Canvas e header](https://kb.smartecommerce.it/api/wordpress-runtime-canvas/)
 - [AI Assistant tools](https://kb.smartecommerce.it/api/ai-assistant-tools/)
 - [Smart AI Gateway Hub API](https://kb.smartecommerce.it/api/smart-ai-gateway-hub-api/)
 - [Code Slots AI-HTML](https://kb.smartecommerce.it/api/ai-html-code-slots/)

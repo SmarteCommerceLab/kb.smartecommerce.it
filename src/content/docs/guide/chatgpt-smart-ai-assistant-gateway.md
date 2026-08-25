@@ -5,6 +5,10 @@ description: Procedura per usare ChatGPT Actions o un Custom GPT con il Gateway 
 
 Questa guida descrive il percorso consigliato per collegare ChatGPT, un Custom GPT o un agente compatibile OpenAPI a un sito WordPress che usa Smart AI Assistant.
 
+:::caution[Modalita avanzata e opzionale]
+Questo collegamento diretto non e il flusso consumer principale. Per generare codice dalla normale chat usare [ChatGPT e Claude dalla chat classica](/guide/ai-commerciali-chat-classica/). Per ispezione, preview, conferma, esecuzione e rollback usare Smart AI Studio. Il Gateway resta disponibile per integrazioni enterprise o agenti OpenAPI controllati.
+:::
+
 ## Obiettivo
 
 Creare un agente ChatGPT capace di lavorare con qualsiasi sito Smart eCommerce che espone il Gateway SAIA.

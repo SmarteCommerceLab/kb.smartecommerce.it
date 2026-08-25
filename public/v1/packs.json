@@ -57,7 +57,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -85,7 +85,7 @@
           "document_id": "prodotti-ai-html-theme",
           "path": "prodotti/ai-html-theme.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
-          "sha256": "babd752c1999e75c60d4debac8833aee7b642ef0a94a8c9624bf6eae1b38559d",
+          "sha256": "6d011ca34217f5f5d372b921e268ac4d22f6ebfb5c9cfb3beb2a03e477c694bf",
           "content_type": "text/markdown"
         },
         {
@@ -101,9 +101,23 @@
           "source_url": "https://kb.smartecommerce.it/api/ai-html-code-slots/",
           "sha256": "409989f6d13cea53f56842a3cd02b9edacea36d3fbb7d82026a8ed186ee5d600",
           "content_type": "text/markdown"
+        },
+        {
+          "document_id": "api-wordpress-runtime-canvas",
+          "path": "api/wordpress-runtime-canvas.md",
+          "source_url": "https://kb.smartecommerce.it/api/wordpress-runtime-canvas/",
+          "sha256": "0d35ed9d2b27db0197de8a736c888c7711fcac5b2790390ed14f4ceff7323b1e",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-ai-commerciali-chat-classica",
+          "path": "guide/ai-commerciali-chat-classica.md",
+          "source_url": "https://kb.smartecommerce.it/guide/ai-commerciali-chat-classica/",
+          "sha256": "e9ba610ebfa34f79c6db22f356101ebc7eaaa5b6083c86befd773871f7769d5a",
+          "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:e04ee1bbaf809f69b62725ba99bd8323335322b028c6a2ac6e173c482a2eb57a"
+      "digest": "sha256:a9aa7fc535f5c58f8e57a39156ca004ed66cf0d650e5e010efb2abc5458f20d8"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -153,7 +167,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbm-design-runtime",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -165,27 +179,61 @@
       "workflows": [
         "site_plan",
         "page_layout",
-        "canvas_generation"
+        "canvas_generation",
+        "inspect_site",
+        "validate",
+        "execute",
+        "verify"
       ],
-      "summary": "Governance Smart Bootstrap Manager per token grafici, Bootstrap, responsive e diagnostica.",
+      "summary": "Governance e API AI Smart Bootstrap Manager per token grafici, Bootstrap, responsive, validazione e diagnostica.",
       "rules": [
         "Usa i token SBM come fonte unica per colore, spaziatura, tipografia e modalita tema.",
         "Non duplicare Bootstrap e non introdurre utility non dichiarate dal runtime.",
-        "Verifica breakpoint e contrasto prima della pubblicazione."
+        "Leggi context e schema, valida il payload, mostra il diff e ottieni conferma prima di scrivere.",
+        "Verifica breakpoint e contrasto prima della pubblicazione.",
+        "Consulta audit e revisioni dopo ogni modifica."
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
-      "published_at": "2026-08-03T00:00:00Z",
+      "published_at": "2026-08-25T00:00:00Z",
       "reviewed_by": "Smart eCommerce Engineering",
       "documents": [
         {
           "document_id": "prodotti-smart-bootstrap-manager",
           "path": "prodotti/smart-bootstrap-manager.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
-          "sha256": "97ec3d3bdd5e1f4dad7c286aa197283d19d2e73d4e123528af27a6958eb2ff91",
+          "sha256": "23a4687a122481e1a2205477e6204536fc69dbe6c4e83b969a708f235eb097f1",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "api-smart-bootstrap-manager-ai-api",
+          "path": "api/smart-bootstrap-manager-ai-api.md",
+          "source_url": "https://kb.smartecommerce.it/api/smart-bootstrap-manager-ai-api/",
+          "sha256": "edbb8efa34d6c76c4730a54464866c2713761203a43597ecb844ae9b7dca6701",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-smart-bootstrap-manager-ai-workflow",
+          "path": "guide/smart-bootstrap-manager-ai-workflow.md",
+          "source_url": "https://kb.smartecommerce.it/guide/smart-bootstrap-manager-ai-workflow/",
+          "sha256": "e51dbfbe0c29e6235fb2e99cda544736740a0b8215303754cf51496ccc2b7b30",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "api-import-export-stack",
+          "path": "api/import-export-stack.md",
+          "source_url": "https://kb.smartecommerce.it/api/import-export-stack/",
+          "sha256": "d50cee293cec720e4c87f02d3f998bd6c1108092e4253bcff7cf5219ffe9917e",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "api-wordpress-runtime-canvas",
+          "path": "api/wordpress-runtime-canvas.md",
+          "source_url": "https://kb.smartecommerce.it/api/wordpress-runtime-canvas/",
+          "sha256": "0d35ed9d2b27db0197de8a736c888c7711fcac5b2790390ed14f4ceff7323b1e",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:28af40f47eb2d874123665ffa0b5ae88fc4b741567b89705fe13ef43d6fcc77a"
+      "digest": "sha256:31ed13cacb1d69982fd417dc7e8e6dabdb610025cf7cf2c6a6b1fba1f04c18a9"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

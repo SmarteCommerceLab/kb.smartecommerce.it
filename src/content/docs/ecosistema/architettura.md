@@ -26,10 +26,10 @@ L'ecosistema Smart eCommerce e una piattaforma WordPress enterprise dove contenu
 
 | Componente | Versione locale rilevata | Responsabilita |
 | --- | --- | --- |
-| Smart Bootstrap Manager | 1.6.8 | Bootstrap, token, GSAP, Barba opzionale, preset motion |
+| Smart Bootstrap Manager | 1.8.5 | Bootstrap, token, GSAP, Barba opzionale, preset motion e API AI |
 | Smart Customizer Frameworks | 1.6.4 | controlli Customizer, catalogo widget, motion per item |
 | Smart Builder Site | 1.20.0 | rendering widget, AI Canvas, JSON page builder |
-| AI-HTML | 1.8.6 | tema, header/footer, code slots, bridge plugin |
+| AI-HTML | 1.14.4 | tema, header/footer, configurazione e manifest live, code slots, bridge plugin |
 | Smart AI Assistant | 1.3.1 | assistant admin, tools sito, registry reset |
 | Smart AI Writer | 0.6.1 | generazione contenuti e impostazioni writer |
 

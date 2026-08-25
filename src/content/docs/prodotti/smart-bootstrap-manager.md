@@ -3,7 +3,7 @@ title: Smart Bootstrap Manager
 description: Runtime Bootstrap, token visuali, librerie UI/UX e motion system.
 ---
 
-Smart Bootstrap Manager e la sorgente unica per Bootstrap 5.3.8, token CSS, palette, tipografia, librerie UI/UX e runtime motion dell'ecosistema Smart eCommerce.
+Smart Bootstrap Manager `1.8.5` e la sorgente unica per Bootstrap 5.3.8, token CSS, palette, tipografia, librerie UI/UX e runtime motion dell'ecosistema Smart eCommerce.
 
 ## Responsabilita
 
@@ -18,6 +18,14 @@ Smart Bootstrap Manager e la sorgente unica per Bootstrap 5.3.8, token CSS, pale
 Tema e plugin consumer non devono caricare copie proprie di Bootstrap o GSAP se SBM e attivo. Devono consumare i contratti SBM e produrre markup compatibile.
 
 ## Operativita AI
+
+SBM e interrogabile e modificabile tramite il namespace REST:
+
+```text
+/wp-json/smart-bootstrap-manager/v1
+```
+
+Una AI autenticata deve seguire il flusso `context -> schema -> validate -> confirm -> update -> verify`. Consulta [API AI Smart Bootstrap Manager](/api/smart-bootstrap-manager-ai-api/) e [Governare SBM con una AI](/guide/smart-bootstrap-manager-ai-workflow/).
 
 Una AI puo:
 
@@ -40,6 +48,16 @@ Una AI non deve:
 - attributi `data-sbin-*` interpretati correttamente;
 - degrado senza JavaScript accettabile;
 - documentazione librerie aggiornata.
+
+## Contratto AI-HTML
+
+AI-HTML deve leggere il consumer contract SBM e usare i token runtime `--bs-*` e `--sbin-*`. Non deve caricare una seconda copia di Bootstrap, sostituire la palette con token paralleli o inizializzare librerie motion gia governate da SBM.
+
+```text
+GET /wp-json/smart-bootstrap-manager/v1/ai/consumer-contract?consumer=ai-html
+```
+
+La specifica centrale e disponibile nello [Swagger SBM](https://repository.smartecommerce.it/swagger/smart-bootstrap-manager/).
 
 ## Documenti locali utili
 

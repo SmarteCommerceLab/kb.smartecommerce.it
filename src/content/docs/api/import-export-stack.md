@@ -9,6 +9,12 @@ Ogni configurazione operativa deve poter essere letta e scritta tramite API o im
 
 | Prodotto | Endpoint | Scopo |
 | --- | --- | --- |
+| SBM | `/wp-json/smart-bootstrap-manager/v1/ai/context` | contesto consolidato e runtime |
+| SBM | `/wp-json/smart-bootstrap-manager/v1/ai/schema` | campi, tipi, range e valori ammessi |
+| SBM | `/wp-json/smart-bootstrap-manager/v1/ai/validate` | validazione senza salvataggio |
+| SBM | `/wp-json/smart-bootstrap-manager/v1/ai/options` | lettura e scrittura opzioni governate |
+| SBM | `/wp-json/smart-bootstrap-manager/v1/ai/options/export` | esportazione configurazione portabile |
+| SBM | `/wp-json/smart-bootstrap-manager/v1/ai/options/import` | importazione completa o parziale |
 | SBM | `/wp-json/smart-bootstrap-manager/v1/design-governance` | modalita e assi di ereditarieta |
 | SBM | `/wp-json/smart-bootstrap-manager/v1/effects` | librerie e configurazione UI/FX |
 | SBS | `/wp-json/sbs/v1/ai/context` | contesto consolidato per AI |
