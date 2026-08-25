@@ -208,14 +208,14 @@
           "document_id": "api-smart-bootstrap-manager-ai-api",
           "path": "api/smart-bootstrap-manager-ai-api.md",
           "source_url": "https://kb.smartecommerce.it/api/smart-bootstrap-manager-ai-api/",
-          "sha256": "edbb8efa34d6c76c4730a54464866c2713761203a43597ecb844ae9b7dca6701",
+          "sha256": "c9cf7604f0fefe35430b9a8bb3b89e8d9ead80a134d6d4d92a454131b829ef90",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-smart-bootstrap-manager-ai-workflow",
           "path": "guide/smart-bootstrap-manager-ai-workflow.md",
           "source_url": "https://kb.smartecommerce.it/guide/smart-bootstrap-manager-ai-workflow/",
-          "sha256": "e51dbfbe0c29e6235fb2e99cda544736740a0b8215303754cf51496ccc2b7b30",
+          "sha256": "600e08e0740f0f343de91df89150731b4356e1a1ad4a23b9b230123b9778bd10",
           "content_type": "text/markdown"
         },
         {
@@ -233,7 +233,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:31ed13cacb1d69982fd417dc7e8e6dabdb610025cf7cf2c6a6b1fba1f04c18a9"
+      "digest": "sha256:fc44a2432cb9939ec7c1d1cf0e4f5342d4b0132c79f93cb5d7bc712d1dcf61b4"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

@@ -105,6 +105,8 @@ Registra esito, versione e revisione nel job Smart AI Studio.
 - variazione radicale della palette;
 - modifica delle API key.
 
+Il reset REST richiede inoltre il body esplicito `{"confirm":"RESET"}`. La conferma conversazionale deve precedere la chiamata e non sostituisce questo controllo tecnico.
+
 ## Uso da ChatGPT o Claude classici
 
 Una chat commerciale puo generare proposte conformi leggendo questa KB e OpenAPI. Per eseguire sul sito serve però uno dei seguenti ponti:

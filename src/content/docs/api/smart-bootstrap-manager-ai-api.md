@@ -3,7 +3,7 @@ title: API AI Smart Bootstrap Manager
 description: Endpoint, autenticazione, schema e payload per interrogare e governare SBM con una AI.
 ---
 
-Smart Bootstrap Manager `1.8.5` espone un contratto REST/JSON per agenti AI, Smart AI Studio, plugin consumer e strumenti OpenAPI.
+Smart Bootstrap Manager `1.8.6` espone un contratto REST/JSON per agenti AI, Smart AI Studio, plugin consumer e strumenti OpenAPI.
 
 Namespace:
 
@@ -20,6 +20,14 @@ Gli endpoint OpenAPI sono pubblici in sola lettura. Contesto, configurazione e o
 - in assenza del core AI condiviso, capability WordPress `manage_options`.
 
 Una chat ChatGPT o Claude priva di un connettore autenticato puo studiare OpenAPI e KB, ma non puo leggere o modificare direttamente la configurazione del sito. Smart AI Studio e il plugin WordPress devono fornire credenziali e trasporto.
+
+Metodi supportati:
+
+- `X-Smart-AI-Key: <chiave-sito>` per Smart AI Studio e agenti autorizzati;
+- `X-WP-Nonce: <nonce>` per chiamate JavaScript originate da WordPress;
+- Basic Auth con una Application Password WordPress per integrazioni compatibili.
+
+Essere autenticati nel browser non basta quando si apre una route protetta direttamente nella barra degli indirizzi: in quel caso Chrome non aggiunge il nonce REST.
 
 ## Endpoint operativi
 
@@ -61,7 +69,7 @@ GET /wp-json/smart-bootstrap-manager/v1/openapi.yaml
 
 ```http
 GET /wp-json/smart-bootstrap-manager/v1/ai/options
-Authorization: Bearer <credenziale-sito>
+X-Smart-AI-Key: <chiave-sito>
 ```
 
 ## Esempio di modifica parziale
@@ -71,7 +79,7 @@ Prima validare:
 ```http
 POST /wp-json/smart-bootstrap-manager/v1/ai/validate
 Content-Type: application/json
-Authorization: Bearer <credenziale-sito>
+X-Smart-AI-Key: <chiave-sito>
 
 {
   "options": {
@@ -83,6 +91,20 @@ Authorization: Bearer <credenziale-sito>
 ```
 
 Solo dopo approvazione applicare lo stesso payload con `PATCH /ai/options`.
+
+## Esempio di reset esplicito
+
+```http
+POST /wp-json/smart-bootstrap-manager/v1/ai/options/reset
+Content-Type: application/json
+X-Smart-AI-Key: <chiave-sito>
+
+{
+  "confirm": "RESET"
+}
+```
+
+Senza questo valore esatto SBM risponde con stato `422` e non modifica la configurazione.
 
 ## Gruppi governati
 
