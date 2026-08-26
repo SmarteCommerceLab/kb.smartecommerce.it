@@ -6,12 +6,12 @@ export default defineConfig({
 	site: 'https://kb.smartecommerce.it',
 	integrations: [
 		starlight({
-			title: 'SeC kLeb',
+			title: 'SeC kLab',
 			description: 'Knowledge Base tecnica dei prodotti Smart eCommerce.',
 			favicon: '/favicon.png',
 			logo: {
 				src: './public/sec-kleb-logo.png',
-				alt: 'SeC kLeb',
+				alt: 'SeC kLab',
 				replacesTitle: false,
 			},
 			defaultLocale: 'root',

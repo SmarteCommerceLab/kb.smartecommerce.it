@@ -1,4 +1,4 @@
-# SeC kLeb
+# SeC kLab
 
 > Knowledge Base pubblica Smart eCommerce per agenti AI, sviluppatori e operatori tecnici.
 

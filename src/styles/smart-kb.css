@@ -77,8 +77,20 @@ body {
 
 .hero {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 	padding-top: 4.5rem;
 	padding-bottom: 3.5rem;
+}
+
+.hero > * {
+	width: 100%;
+}
+
+.hero .copy {
+	align-items: flex-start;
+	text-align: left;
 }
 
 .hero::before {

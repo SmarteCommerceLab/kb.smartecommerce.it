@@ -1,6 +1,6 @@
-# SeC kLeb - Indice navigabile per AI
+# SeC kLab - Indice navigabile per AI
 
-Questo file espone in formato Markdown statico le pagine principali della Knowledge Base SeC kLeb. Usarlo quando un crawler o un agente AI non esegue JavaScript o non interpreta correttamente la navigazione Starlight.
+Questo file espone in formato Markdown statico le pagine principali della Knowledge Base SeC kLab. Usarlo quando un crawler o un agente AI non esegue JavaScript o non interpreta correttamente la navigazione Starlight.
 
 ## Fondamenti
 
