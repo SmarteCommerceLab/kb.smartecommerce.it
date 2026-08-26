@@ -73,6 +73,16 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Prompt AI',
+					items: [
+						{ label: 'Libreria prompt', slug: 'prompt-ai' },
+						{ label: 'Creare un sito completo', slug: 'prompt-ai/sito-completo' },
+						{ label: 'Header e footer', slug: 'prompt-ai/header-footer' },
+						{ label: 'Landing e pagine', slug: 'prompt-ai/landing-pagine' },
+						{ label: 'Analisi e correzione', slug: 'prompt-ai/analisi-correzione' },
+					],
+				},
+				{
 					label: 'API e integrazioni',
 					items: [
 						{ label: 'API e Swagger', slug: 'api/swagger-index' },

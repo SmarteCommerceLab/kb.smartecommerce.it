@@ -31,7 +31,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "ai-html", "version_range": "*"}],
@@ -55,7 +55,12 @@
         "guide/ai-commerciali-chat-classica.md",
         "guide/percorsi-ai.md",
         "guide/esporta-contesto-ai.md",
-        "guide/flusso-ai-standalone.md"
+        "guide/flusso-ai-standalone.md",
+        "prompt-ai/index.md",
+        "prompt-ai/sito-completo.md",
+        "prompt-ai/header-footer.md",
+        "prompt-ai/landing-pagine.md",
+        "prompt-ai/analisi-correzione.md"
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
       "published_at": "2026-08-03T00:00:00Z",
