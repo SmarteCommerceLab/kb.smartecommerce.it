@@ -57,7 +57,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -78,7 +78,9 @@
         "Per header_full e footer_full separa HTML, CSS e JS e dichiara sempre design_mode.",
         "Se la governance globale e governed, non usare valori visuali hardcoded: consuma token --bs-*, --sbin-* o --canvas-*.",
         "Salva Canvas non verificati come inattivi e attivali solo dopo validazione e conferma.",
-        "Mantieni le pagine in bozza fino alla verifica governata."
+        "Mantieni le pagine in bozza fino alla verifica governata.",
+        "Per una chat classica usa un singolo export smart-ecommerce-ai-context e non chiedere all'utente di interpretare endpoint, token, hook o menu location.",
+        "Non proporre Actions, connector o MCP come percorso consumer: usa Smart AI Studio oppure il flusso export/standalone."
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
       "published_at": "2026-08-03T00:00:00Z",
@@ -116,11 +118,32 @@
           "document_id": "guide-ai-commerciali-chat-classica",
           "path": "guide/ai-commerciali-chat-classica.md",
           "source_url": "https://kb.smartecommerce.it/guide/ai-commerciali-chat-classica/",
-          "sha256": "afd518085896201c7900f60235175b8368d47a45207a34563d48aab3a2d9c1ea",
+          "sha256": "e06bbc8d45e102e3738d7e5ff3da3071904232ca3524538c7df358c5bfc35d14",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-percorsi-ai",
+          "path": "guide/percorsi-ai.md",
+          "source_url": "https://kb.smartecommerce.it/guide/percorsi-ai/",
+          "sha256": "e21adea103232249143bd28c689751deb2db2f88a8a1df99b22e949393e78016",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-esporta-contesto-ai",
+          "path": "guide/esporta-contesto-ai.md",
+          "source_url": "https://kb.smartecommerce.it/guide/esporta-contesto-ai/",
+          "sha256": "af3dff43e5d7d1840f15d337552431a33a66d490e9ef48c9993bf400b7f44793",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-flusso-ai-standalone",
+          "path": "guide/flusso-ai-standalone.md",
+          "source_url": "https://kb.smartecommerce.it/guide/flusso-ai-standalone/",
+          "sha256": "79972d45f799b93d2a20da28227a39acad14c830bc842e49dff0d70212cb830a",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:7f1818be0d27cbc5768eb321fa7e2d0ce87c86af2833eebf928a1a40c2e543ee"
+      "digest": "sha256:cf2991528ae315096cd63ba0111cf25ee0a24d55ea2888795b88558becb40504"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

@@ -6,6 +6,9 @@ Questa documentazione descrive prodotti, responsabilita, API, procedure operativ
 
 ## Percorso consigliato per AI
 
+- [Scegliere il percorso AI](https://kb.smartecommerce.it/guide/percorsi-ai/): selezione obbligatoria tra chat classica, Smart AI Studio e standalone.
+- [Esportare il contesto per una chat AI](https://kb.smartecommerce.it/guide/esporta-contesto-ai/): file read-only con manifest, contratti, registry e istruzioni, privo di credenziali.
+- [Flusso AI standalone](https://kb.smartecommerce.it/guide/flusso-ai-standalone/): generazione e applicazione manuale senza ai.smartecommerce.it.
 - [Manuale Operativo AI](https://kb.smartecommerce.it/ai/manuale-operativo/): regole, flussi obbligatori e limiti operativi per agenti AI.
 - [Matrice Prodotti](https://kb.smartecommerce.it/ai/matrice-prodotti/): catalogo dei prodotti e responsabilita tecniche.
 - [Contesto Training AI](https://kb.smartecommerce.it/ai/contesto-training/): contesto sintetico per orientare una AI sul dominio.
@@ -19,7 +22,6 @@ Questa documentazione descrive prodotti, responsabilita, API, procedure operativ
 - [Runtime WordPress per Canvas e header](https://kb.smartecommerce.it/api/wordpress-runtime-canvas/): contratto per menu, URL, identita e impostazioni risolte dal sito.
 - [Governare Smart Bootstrap Manager con una AI](https://kb.smartecommerce.it/guide/smart-bootstrap-manager-ai-workflow/): procedura context, schema, validate, conferma, update e verifica.
 - [API AI Smart Bootstrap Manager](https://kb.smartecommerce.it/api/smart-bootstrap-manager-ai-api/): endpoint, autenticazione, payload e regole di sicurezza SBM.
-- [Collegare ChatGPT a Smart AI Assistant](https://kb.smartecommerce.it/guide/chatgpt-smart-ai-assistant-gateway/): procedura per Custom GPT, Actions e Gateway SAIA.
 - [Guida Sviluppatori](https://kb.smartecommerce.it/guide/guida-sviluppatori/): istruzioni pratiche per chi sviluppa sullo stack.
 - [Checklist Rilascio](https://kb.smartecommerce.it/operazioni/checklist-rilascio/): controlli prima della pubblicazione.
 

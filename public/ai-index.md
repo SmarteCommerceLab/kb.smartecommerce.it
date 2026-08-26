@@ -29,11 +29,13 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 
 ## Guide operative
 
+- [Scegliere il percorso AI](https://kb.smartecommerce.it/guide/percorsi-ai/)
+- [Esportare il contesto per una chat AI](https://kb.smartecommerce.it/guide/esporta-contesto-ai/)
 - [Attivare Smart AI Studio](https://kb.smartecommerce.it/guide/attivare-smart-ai-studio/)
+- [Flusso AI standalone](https://kb.smartecommerce.it/guide/flusso-ai-standalone/)
 - [Installazione stack WordPress](https://kb.smartecommerce.it/guide/installazione-stack-wordpress/)
 - [Flusso agente AI](https://kb.smartecommerce.it/guide/flusso-agente-ai/)
 - [AI commerciali dalla chat classica](https://kb.smartecommerce.it/guide/ai-commerciali-chat-classica/)
-- [Collegare ChatGPT a Smart AI Assistant](https://kb.smartecommerce.it/guide/chatgpt-smart-ai-assistant-gateway/)
 - [Guida sviluppatori](https://kb.smartecommerce.it/guide/guida-sviluppatori/)
 - [Authoring AI Canvas](https://kb.smartecommerce.it/guide/authoring-ai-canvas/)
 - [Governare Smart Bootstrap Manager con una AI](https://kb.smartecommerce.it/guide/smart-bootstrap-manager-ai-workflow/)
@@ -59,4 +61,4 @@ Questo file espone in formato Markdown statico le pagine principali della Knowle
 
 Prima di modificare codice, contenuti o configurazioni, identificare il prodotto proprietario della responsabilita. Non correggere un problema nel livello sbagliato. Usare il Manuale operativo AI e la Matrice prodotti come prime fonti.
 
-Smart AI Studio e il punto di ingresso operativo per l'utente. Lo Studio seleziona la AI privata o un provider BYOK, risolve i KnowledgePack compatibili e invia operazioni tipizzate al plugin Smart AI Studio installato nel sito. Il gateway resta un componente tecnico opzionale e non guida il flusso consumer.
+Scegliere uno dei tre ingressi supportati: chat classica con export del contesto, Smart AI Studio oppure standalone senza servizio centrale. Actions, connector e MCP non sono il percorso consumer. Smart AI Studio seleziona la AI privata o un provider BYOK, risolve i KnowledgePack compatibili e invia operazioni tipizzate al plugin installato nel sito.

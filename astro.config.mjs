@@ -58,11 +58,13 @@ export default defineConfig({
 				{
 					label: 'Guide operative',
 					items: [
+						{ label: 'Scegliere il percorso AI', slug: 'guide/percorsi-ai' },
+						{ label: 'Esporta contesto per AI', slug: 'guide/esporta-contesto-ai' },
 						{ label: 'Attivare Smart AI Studio', slug: 'guide/attivare-smart-ai-studio' },
+						{ label: 'Flusso AI standalone', slug: 'guide/flusso-ai-standalone' },
 						{ label: 'Installazione stack WordPress', slug: 'guide/installazione-stack-wordpress' },
 						{ label: 'Flusso agente AI', slug: 'guide/flusso-agente-ai' },
 						{ label: 'AI commerciali in chat', slug: 'guide/ai-commerciali-chat-classica' },
-						{ label: 'Collegare ChatGPT a SAIA', slug: 'guide/chatgpt-smart-ai-assistant-gateway' },
 						{ label: 'Guida sviluppatori', slug: 'guide/guida-sviluppatori' },
 						{ label: 'Authoring AI Canvas', slug: 'guide/authoring-ai-canvas' },
 						{ label: 'Governare SBM con una AI', slug: 'guide/smart-bootstrap-manager-ai-workflow' },

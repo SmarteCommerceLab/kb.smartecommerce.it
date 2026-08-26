@@ -15,12 +15,13 @@ Questi dati tecnici appartengono al contratto macchina del sito. Smart AI Studio
 
 Chiedere all'utente di copiare separatamente Manifest AI-HTML, contratto SBM e catalogo SBS e un flusso di emergenza, non l'esperienza finale prevista.
 
-## Due percorsi supportati
+## Percorsi supportati
 
 | Modalita | Dati tecnici | Cosa puo fare la AI | Intervento utente |
 | --- | --- | --- | --- |
 | Chat classica | Manifest o pacchetto contesto allegato | Progetta e genera artefatti | Copia il pacchetto, poi copia Code Slot o Canvas |
 | Smart AI Studio | Discovery, validazione e scrittura integrate | Genera, valida, applica, verifica e ripristina | Conferma le operazioni governate |
+| Standalone | Export locale e strumenti scelti dall'utente | Genera senza servizio centrale | Valida e applica manualmente |
 
 Una normale chat web non puo leggere endpoint WordPress protetti solo perche riceve il loro URL. Il precedente percorso basato su Custom GPT Actions, connector generici o MCP non e il flusso consumer supportato: e stato sostituito da Smart AI Studio, che collega il sito alla Smart Private AI e consente di scegliere nello Studio la AI privata oppure un provider commerciale configurato con API key personale.
 
@@ -28,7 +29,7 @@ Le API key dei provider restano nello Studio. I token del sito e `X-Smart-AI-Key
 
 ## Pacchetto contesto con un solo copia e incolla
 
-Quando non esiste un connector, WordPress deve offrire un unico export **Contesto per AI** che raccolga almeno:
+Per la chat classica WordPress offre un unico export **Contesto per AI** che raccoglie almeno:
 
 - Manifest AI-HTML;
 - consumer contract SBM per AI-HTML;
@@ -38,6 +39,8 @@ Quando non esiste un connector, WordPress deve offrire un unico export **Contest
 - soli dati operativi necessari, senza API key, nonce, utenti o altri segreti.
 
 La chat deve trattare il pacchetto come read-only. L'utente non deve interpretarlo: lo allega e continua a parlare in linguaggio naturale.
+
+Nel tema AI-HTML il comando e disponibile in **AI-HTML > Esporta per AI**. Vedi [Esportare il contesto per una chat AI](/guide/esporta-contesto-ai/).
 
 ## Flusso semplice
 

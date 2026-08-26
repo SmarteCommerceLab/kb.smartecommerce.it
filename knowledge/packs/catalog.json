@@ -31,7 +31,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "ai-html", "version_range": "*"}],
@@ -43,14 +43,19 @@
         "Per header_full e footer_full separa HTML, CSS e JS e dichiara sempre design_mode.",
         "Se la governance globale e governed, non usare valori visuali hardcoded: consuma token --bs-*, --sbin-* o --canvas-*.",
         "Salva Canvas non verificati come inattivi e attivali solo dopo validazione e conferma.",
-        "Mantieni le pagine in bozza fino alla verifica governata."
+        "Mantieni le pagine in bozza fino alla verifica governata.",
+        "Per una chat classica usa un singolo export smart-ecommerce-ai-context e non chiedere all'utente di interpretare endpoint, token, hook o menu location.",
+        "Non proporre Actions, connector o MCP come percorso consumer: usa Smart AI Studio oppure il flusso export/standalone."
       ],
       "document_paths": [
         "prodotti/ai-html-theme.md",
         "api/ai-html-integration-manifest.md",
         "api/ai-html-code-slots.md",
         "api/wordpress-runtime-canvas.md",
-        "guide/ai-commerciali-chat-classica.md"
+        "guide/ai-commerciali-chat-classica.md",
+        "guide/percorsi-ai.md",
+        "guide/esporta-contesto-ai.md",
+        "guide/flusso-ai-standalone.md"
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
       "published_at": "2026-08-03T00:00:00Z",

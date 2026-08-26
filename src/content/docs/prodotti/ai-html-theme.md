@@ -3,7 +3,7 @@ title: AI-HTML Theme
 description: Tema base Smart eCommerce, header, footer, template, API e Code Slots.
 ---
 
-AI-HTML `1.14.9` e il tema base dell'ecosistema Smart eCommerce. Fornisce cornice sito, template, menu, header, footer, SEO, bridge verso plugin e Code Slots.
+AI-HTML `1.15.0` e il tema base dell'ecosistema Smart eCommerce. Fornisce cornice sito, template, menu, header, footer, SEO, bridge verso plugin, Code Slots ed export del contesto per chat AI.
 
 ## Responsabilita
 
