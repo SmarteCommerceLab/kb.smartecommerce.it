@@ -1,9 +1,20 @@
 ---
-title: Smart AI Assistant
-description: Assistant admin, strumenti sito e registry reset prodotti attivi.
+title: Smart AI Studio
+description: Plugin WordPress e workspace governato per progettare, verificare e applicare operazioni AI sul sito.
 ---
 
-Smart AI Assistant e il livello operativo per assistenza AI dentro l'amministrazione WordPress e il gateway controllato per agenti AI esterni. Lavora con strumenti sito, registry dei prodotti attivi, procedure controllate, audit e operations.
+Smart AI Studio e il workspace governato per lavorare sui siti WordPress. Il plugin mantiene per compatibilita tecnica lo slug `smart-ai-assistant`, espone strumenti sito, registry dei prodotti attivi, procedure controllate, audit e operations.
+
+## Studio e AI privata
+
+I due servizi non sono alternative equivalenti:
+
+| Servizio | Ruolo | Uso da parte del cliente |
+| --- | --- | --- |
+| `studio.smartecommerce.it` | Workspace, siti collegati, progetti, chat, preview, conferme, audit e rollback | Punto di ingresso ordinario |
+| `ai.smartecommerce.it` | Motore AI privato e servizio di inferenza usato dallo Studio quando selezionato | Provider sottostante, non pannello di governo del sito |
+
+L'utente che vuole costruire o modificare un sito entra nello Studio. L'AI privata viene scelta nello Studio come provider; non sostituisce manifest, capability, KnowledgePack o procedure di conferma.
 
 ## Responsabilita
 
@@ -19,7 +30,7 @@ Smart AI Assistant e il livello operativo per assistenza AI dentro l'amministraz
 
 L'assistant non deve orchestrare reset distruttivi cross-prodotto con logica propria. Deve chiamare gli endpoint o registry autonomi del prodotto proprietario dei dati e rispettare capability, nonce, Bearer token e policy definite localmente.
 
-Smart AI Assistant resetta solo se stesso:
+Il plugin Smart AI Studio resetta solo se stesso:
 
 - `saia:factory`
 - `saia:settings`

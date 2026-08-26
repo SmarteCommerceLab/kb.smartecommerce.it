@@ -7,6 +7,10 @@ Smart AI Studio si attiva con un percorso governato. La registrazione
 dell'account non e libera: nasce da una richiesta approvata e viene poi
 collegata a uno o piu siti WordPress autorizzati.
 
+Il cliente usa `studio.smartecommerce.it` per siti, progetti, chat, preview e
+conferme. `ai.smartecommerce.it` fornisce l'AI privata quando viene scelta come
+provider nello Studio e non sostituisce il workspace.
+
 ## Il percorso in cinque azioni
 
 Memorizzare questa sequenza:
@@ -120,4 +124,3 @@ prompt.
 Non inviare mai via email o chat password WordPress, token del sito o API key
 dei provider. Il pairing usa un codice temporaneo; i secret operativi restano
 nei rispettivi servizi.
-

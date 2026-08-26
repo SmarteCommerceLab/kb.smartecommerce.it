@@ -27,6 +27,8 @@ Studio -> Smart Private AI/provider BYOK -> sito collegato -> piano -> conferma 
 
 Le API key dei provider restano nello Studio. Non vengono inserite nella KB, nei prompt o nel plugin WordPress.
 
+Lo Studio e il punto di ingresso del cliente. `ai.smartecommerce.it` e il motore AI privato selezionabile dallo Studio, non un secondo pannello equivalente per governare WordPress.
+
 [Apri la guida Smart AI Studio](/guide/attivare-smart-ai-studio/)
 
 ## 3. Standalone senza ai.smartecommerce.it

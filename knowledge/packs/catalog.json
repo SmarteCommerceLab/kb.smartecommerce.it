@@ -136,11 +136,63 @@
     {
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
+      "pack_id": "smart-ai-studio-operations",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [{"slug": "smart-ai-assistant", "version_range": "*"}],
+      "workflows": ["inspect_site", "site_plan", "validate", "execute", "verify", "rollback"],
+      "summary": "Contratto operativo Smart AI Studio per connessione al sito, pianificazione, preview, conferma, esecuzione e audit.",
+      "rules": [
+        "Usa Smart AI Studio come workspace governato e non esporre chiavi del sito o dei provider nella conversazione.",
+        "Leggi capability e contesti del sito prima di proporre modifiche.",
+        "Mantieni contenuti e Canvas in bozza fino alla conferma esplicita.",
+        "Mostra preview, diff e verifiche prima di eseguire operazioni con effetti sul sito.",
+        "Registra audit e strategia di rollback per ogni operazione applicata."
+      ],
+      "document_paths": [
+        "prodotti/smart-ai-assistant.md",
+        "api/ai-assistant-tools.md",
+        "guide/attivare-smart-ai-studio.md",
+        "guide/flusso-agente-ai.md",
+        "guide/percorsi-ai.md"
+      ],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-ai-assistant/",
+      "published_at": "2026-08-26T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "smart-login-access-runtime",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [{"slug": "smart-site-login-personalize", "version_range": "*"}],
+      "workflows": ["inspect_site", "validate", "verify", "rollback"],
+      "summary": "Regole Smart Site Login Personalize per accesso, redirect, OAuth e personalizzazione sicura del login WordPress.",
+      "rules": [
+        "Non modificare accesso, OAuth o redirect senza verificare il percorso amministrativo di recupero.",
+        "Non esporre segreti OAuth, password, token o dati di sessione nei payload AI.",
+        "Conserva un percorso di login WordPress funzionante prima di applicare personalizzazioni.",
+        "Verifica logout, redirect e ruoli dopo ogni modifica."
+      ],
+      "document_paths": ["prodotti/smart-site-login-personalize.md"],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/",
+      "published_at": "2026-08-26T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
       "pack_id": "cleaner-reset-safety",
       "version": "1.0.0",
       "lifecycle": "approved",
       "locale": "it-IT",
-      "products": [{"slug": "smart-cleaner-reset", "version_range": "*"}],
+      "products": [
+        {"slug": "smart-cleaner-reset", "version_range": "*"},
+        {"slug": "smartecommerce-selective-cleanup", "version_range": "*"}
+      ],
       "workflows": ["site_reset", "rollback"],
       "summary": "Regole Smart Cleaner Reset per snapshot, pulizia selettiva, ripristino e reset completo.",
       "rules": [

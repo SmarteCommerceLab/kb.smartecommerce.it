@@ -15,6 +15,16 @@ GET /wp-json/aihtml/v1/ai/options
 GET /wp-json/aihtml/v1/ai/menus
 ```
 
+La specifica OpenAPI e pubblica e puo essere letta prima della configurazione di un client:
+
+```text
+GET /wp-json/aihtml/v1/ai/openapi
+GET /wp-json/aihtml/v1/openapi
+```
+
+La specifica descrive il contratto ma non contiene dati privati del sito. Manifest,
+menu, opzioni, contesti e operazioni restano protetti e richiedono autenticazione.
+
 ## Regola operativa
 
 Una AI non deve inventare logo, menu, social, contatti, form o attachment quando il manifest espone una risorsa WordPress o AI-HTML gia configurata.

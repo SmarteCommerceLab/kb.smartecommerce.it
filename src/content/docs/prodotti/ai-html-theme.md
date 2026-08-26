@@ -3,7 +3,7 @@ title: AI-HTML Theme
 description: Tema base Smart eCommerce, header, footer, template, API e Code Slots.
 ---
 
-AI-HTML `1.15.0` e il tema base dell'ecosistema Smart eCommerce. Fornisce cornice sito, template, menu, header, footer, SEO, bridge verso plugin, Code Slots ed export del contesto per chat AI.
+AI-HTML `1.15.1` e il tema base dell'ecosistema Smart eCommerce. Fornisce cornice sito, template, menu, header, footer, SEO, bridge verso plugin, Code Slots ed export del contesto per chat AI.
 
 ## Responsabilita
 
@@ -73,6 +73,8 @@ Configurazione JSON -> WordPress e plugin -> Manifest live
 ```
 
 Il Manifest non possiede versionamento o modifica diretta. L'endpoint `/wp-json/aihtml/v1/ai/integration-manifest` e protetto e deve essere letto tramite un client REST autenticato.
+
+La specifica `/wp-json/aihtml/v1/ai/openapi` e invece pubblica: consente la discovery delle route senza esporre configurazione, menu o contenuti del sito.
 
 La Dashboard amministrativa mostra prima i KPI e poi integrazioni, diagnostica Canvas e strumenti. La navigazione e ordinata per Configurazione, Contenuti e menu, Integrazioni, Strumenti avanzati e Governance.
 

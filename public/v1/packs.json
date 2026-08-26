@@ -90,14 +90,14 @@
           "document_id": "prodotti-ai-html-theme",
           "path": "prodotti/ai-html-theme.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
-          "sha256": "fa141c8d118e051e91870e822d9b8501cd8925986ed3591c1c82ff9c1445089e",
+          "sha256": "a31d16e48e79cfd42c7eaec45eda2720e3cc961ee943992cf6d6162d89377322",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-ai-html-integration-manifest",
           "path": "api/ai-html-integration-manifest.md",
           "source_url": "https://kb.smartecommerce.it/api/ai-html-integration-manifest/",
-          "sha256": "381e1be232f589d51f924e5096309b5d01d3ede92813399e4be17356f4c29d0a",
+          "sha256": "48355ee355c92afe4b187082ec11aba1fe3aa42cc48272de746ece8be4c39f21",
           "content_type": "text/markdown"
         },
         {
@@ -125,7 +125,7 @@
           "document_id": "guide-percorsi-ai",
           "path": "guide/percorsi-ai.md",
           "source_url": "https://kb.smartecommerce.it/guide/percorsi-ai/",
-          "sha256": "e21adea103232249143bd28c689751deb2db2f88a8a1df99b22e949393e78016",
+          "sha256": "af1c3d9749bed527b2c9a00a2232ec12b9137bbec30f6615f9ef4ae8e2b04daf",
           "content_type": "text/markdown"
         },
         {
@@ -143,7 +143,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:97b06bd118dbf237583000d07cfb2275b7e1c7c50ae94142003822e013014e83"
+      "digest": "sha256:4e9df2cb3f8124845882a40713992a36f3d46655d66ad1798d5d4f56380ebb9d"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -302,6 +302,117 @@
     {
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
+      "pack_id": "smart-ai-studio-operations",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [
+        {
+          "slug": "smart-ai-assistant",
+          "version_range": "*"
+        }
+      ],
+      "workflows": [
+        "inspect_site",
+        "site_plan",
+        "validate",
+        "execute",
+        "verify",
+        "rollback"
+      ],
+      "summary": "Contratto operativo Smart AI Studio per connessione al sito, pianificazione, preview, conferma, esecuzione e audit.",
+      "rules": [
+        "Usa Smart AI Studio come workspace governato e non esporre chiavi del sito o dei provider nella conversazione.",
+        "Leggi capability e contesti del sito prima di proporre modifiche.",
+        "Mantieni contenuti e Canvas in bozza fino alla conferma esplicita.",
+        "Mostra preview, diff e verifiche prima di eseguire operazioni con effetti sul sito.",
+        "Registra audit e strategia di rollback per ogni operazione applicata."
+      ],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-ai-assistant/",
+      "published_at": "2026-08-26T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering",
+      "documents": [
+        {
+          "document_id": "prodotti-smart-ai-assistant",
+          "path": "prodotti/smart-ai-assistant.md",
+          "source_url": "https://kb.smartecommerce.it/prodotti/smart-ai-assistant/",
+          "sha256": "ad78f4f87b9c96b4dcefe49a2938a3b345c6ef01f4192e4fd7e63ec6e11de244",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "api-ai-assistant-tools",
+          "path": "api/ai-assistant-tools.md",
+          "source_url": "https://kb.smartecommerce.it/api/ai-assistant-tools/",
+          "sha256": "ef18b03cf065980f592bb8de0c1aa1a371c2465919bf47400e3c220375994275",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-attivare-smart-ai-studio",
+          "path": "guide/attivare-smart-ai-studio.md",
+          "source_url": "https://kb.smartecommerce.it/guide/attivare-smart-ai-studio/",
+          "sha256": "cfcddbc1d009b6edacdee7a15ed4fd19db582fa518e2bbdb729f88b24bc3a59e",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-flusso-agente-ai",
+          "path": "guide/flusso-agente-ai.md",
+          "source_url": "https://kb.smartecommerce.it/guide/flusso-agente-ai/",
+          "sha256": "c9e84ca3a2ac06513cb53c29f17d785af9f2ca449d4b53d18b3f46fe63aee63d",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-percorsi-ai",
+          "path": "guide/percorsi-ai.md",
+          "source_url": "https://kb.smartecommerce.it/guide/percorsi-ai/",
+          "sha256": "af1c3d9749bed527b2c9a00a2232ec12b9137bbec30f6615f9ef4ae8e2b04daf",
+          "content_type": "text/markdown"
+        }
+      ],
+      "digest": "sha256:96cbc50e3c71846ceaa792977b18e2f78f62fd0f3985f2e795c85227111e365b"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
+      "pack_id": "smart-login-access-runtime",
+      "version": "1.0.0",
+      "lifecycle": "approved",
+      "locale": "it-IT",
+      "products": [
+        {
+          "slug": "smart-site-login-personalize",
+          "version_range": "*"
+        }
+      ],
+      "workflows": [
+        "inspect_site",
+        "validate",
+        "verify",
+        "rollback"
+      ],
+      "summary": "Regole Smart Site Login Personalize per accesso, redirect, OAuth e personalizzazione sicura del login WordPress.",
+      "rules": [
+        "Non modificare accesso, OAuth o redirect senza verificare il percorso amministrativo di recupero.",
+        "Non esporre segreti OAuth, password, token o dati di sessione nei payload AI.",
+        "Conserva un percorso di login WordPress funzionante prima di applicare personalizzazioni.",
+        "Verifica logout, redirect e ruoli dopo ogni modifica."
+      ],
+      "source_url": "https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/",
+      "published_at": "2026-08-26T00:00:00Z",
+      "reviewed_by": "Smart eCommerce Engineering",
+      "documents": [
+        {
+          "document_id": "prodotti-smart-site-login-personalize",
+          "path": "prodotti/smart-site-login-personalize.md",
+          "source_url": "https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/",
+          "sha256": "814f806a805def6ba421d015ef5d58d6dc8b72b33575bb5ad1412a1414c4a48e",
+          "content_type": "text/markdown"
+        }
+      ],
+      "digest": "sha256:2502bc578e18a648b978399e16364ac7e49d2ef8df96721949defd77a04838dc"
+    },
+    {
+      "schema": "smart-ecommerce.knowledge-pack",
+      "schema_version": 1,
       "pack_id": "cleaner-reset-safety",
       "version": "1.0.0",
       "lifecycle": "approved",
@@ -309,6 +420,10 @@
       "products": [
         {
           "slug": "smart-cleaner-reset",
+          "version_range": "*"
+        },
+        {
+          "slug": "smartecommerce-selective-cleanup",
           "version_range": "*"
         }
       ],
@@ -334,7 +449,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:225fc45127a99163547b5243499850653a9f638f215670e2a97e8d7f9a799447"
+      "digest": "sha256:5c0b540591bc01ba164803f1f514415ddda43df9acd212d99d4dbca2935b0018"
     }
   ]
 }
