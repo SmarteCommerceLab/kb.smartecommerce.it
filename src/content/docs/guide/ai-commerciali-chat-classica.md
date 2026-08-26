@@ -11,24 +11,20 @@ La chat classica **non e collegata al sito**, non conosce automaticamente lo sta
 
 L'utente deve descrivere soltanto obiettivo, pubblico, contenuti, pagine e preferenze editoriali. Non deve conoscere endpoint REST, menu location, ID, token CSS, hook, capability o nomi dei widget.
 
-Questi dati tecnici appartengono al contratto macchina del sito e devono essere:
-
-- scoperti automaticamente da un client autorizzato; oppure
-- esportati da WordPress con un unico comando e allegati alla chat come pacchetto di contesto.
+Questi dati tecnici appartengono al contratto macchina del sito. Smart AI Studio li scopre automaticamente attraverso il collegamento governato del sito. Nella chat commerciale classica vengono invece esportati da WordPress con un unico comando e allegati come pacchetto di contesto.
 
 Chiedere all'utente di copiare separatamente Manifest AI-HTML, contratto SBM e catalogo SBS e un flusso di emergenza, non l'esperienza finale prevista.
 
-## Tre livelli di utilizzo
+## Due percorsi supportati
 
 | Modalita | Dati tecnici | Cosa puo fare la AI | Intervento utente |
 | --- | --- | --- | --- |
 | Chat classica | Manifest o pacchetto contesto allegato | Progetta e genera artefatti | Copia il pacchetto, poi copia Code Slot o Canvas |
-| Chat con Action, connector o MCP | Lettura automatica con credenziale limitata | Scopre contratti e genera artefatti | Descrive il sito e approva il risultato |
 | Smart AI Studio | Discovery, validazione e scrittura integrate | Genera, valida, applica, verifica e ripristina | Conferma le operazioni governate |
 
-Una normale chat web non puo leggere endpoint WordPress protetti solo perche riceve il loro URL. Per la discovery automatica serve un'integrazione capace di inviare `X-Smart-AI-Key` fuori dal testo della conversazione. La chiave non deve essere incollata nel prompt.
+Una normale chat web non puo leggere endpoint WordPress protetti solo perche riceve il loro URL. Il precedente percorso basato su Custom GPT Actions, connector generici o MCP non e il flusso consumer supportato: e stato sostituito da Smart AI Studio, che collega il sito alla Smart Private AI e consente di scegliere nello Studio la AI privata oppure un provider commerciale configurato con API key personale.
 
-La credenziale consigliata per la sola progettazione ha permesso `READ`. I permessi `WRITE` e `PUBLISH` servono soltanto a un client che applica modifiche e devono rimanere separati dall'attivita di lettura.
+Le API key dei provider restano nello Studio. I token del sito e `X-Smart-AI-Key` non devono essere incollati nella conversazione o inseriti nel pacchetto esportato.
 
 ## Pacchetto contesto con un solo copia e incolla
 

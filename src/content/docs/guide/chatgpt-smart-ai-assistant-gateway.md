@@ -1,12 +1,12 @@
 ---
-title: Collegare ChatGPT a Smart AI Assistant
-description: Procedura per usare ChatGPT Actions o un Custom GPT con il Gateway REST di Smart AI Assistant.
+title: Gateway ChatGPT storico
+description: Riferimento storico del collegamento diretto via Actions, non usato dal flusso consumer attuale.
 ---
 
-Questa guida descrive il percorso consigliato per collegare ChatGPT, un Custom GPT o un agente compatibile OpenAPI a un sito WordPress che usa Smart AI Assistant.
+Questa pagina conserva il riferimento tecnico del precedente collegamento diretto tra ChatGPT e WordPress tramite Actions/OpenAPI. Non descrive l'architettura consumer attuale.
 
-:::caution[Modalita avanzata e opzionale]
-Questo collegamento diretto non e il flusso consumer principale. Per generare codice dalla normale chat usare [ChatGPT e Claude dalla chat classica](/guide/ai-commerciali-chat-classica/). Per ispezione, preview, conferma, esecuzione e rollback usare Smart AI Studio. Il Gateway resta disponibile per integrazioni enterprise o agenti OpenAPI controllati.
+:::caution[Percorso storico, non proseguire per nuovi siti]
+Il percorso Custom GPT Actions/connector/MCP e stato scartato come esperienza consumer. Per generare codice dalla normale chat usare [ChatGPT e Claude dalla chat classica](/guide/ai-commerciali-chat-classica/) con il pacchetto **Contesto per AI**. Per discovery automatica, scelta della AI privata o di provider commerciali, preview, conferma, esecuzione e rollback usare [Smart AI Studio](/guide/attivare-smart-ai-studio/).
 :::
 
 ## Obiettivo
