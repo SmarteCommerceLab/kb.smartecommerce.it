@@ -57,7 +57,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -146,7 +146,14 @@
           "document_id": "prompt-ai-index",
           "path": "prompt-ai/index.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/index/",
-          "sha256": "2dfc9e7b126e86ca2c1c49e522ecd3f3923f85bab9525d5481ecd0494ef616d4",
+          "sha256": "ccb8e98825d44c3a7dc3b79a0aa25706ec6be6441032046841070af15093078f",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "prompt-ai-primo-prompt",
+          "path": "prompt-ai/primo-prompt.md",
+          "source_url": "https://kb.smartecommerce.it/prompt-ai/primo-prompt/",
+          "sha256": "cccfba45c522aa75bade4aba796e338dc0f46952161e6bb05e136022f20ce021",
           "content_type": "text/markdown"
         },
         {
@@ -171,6 +178,13 @@
           "content_type": "text/markdown"
         },
         {
+          "document_id": "prompt-ai-ecommerce-contenuti",
+          "path": "prompt-ai/ecommerce-contenuti.md",
+          "source_url": "https://kb.smartecommerce.it/prompt-ai/ecommerce-contenuti/",
+          "sha256": "f7196ef337f27c4842f227f212898988475ad0756599a79067a833ca554e39a3",
+          "content_type": "text/markdown"
+        },
+        {
           "document_id": "prompt-ai-analisi-correzione",
           "path": "prompt-ai/analisi-correzione.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/analisi-correzione/",
@@ -178,7 +192,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:9b71d1dc7f33ec0bb4c5d708eeed7b24161fbce79f1622c65b8222ce6ab99189"
+      "digest": "sha256:dd6172ef395b6b58f51b25f794739adfd11f1d7675fb2f4d07bd8e639f50a10b"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

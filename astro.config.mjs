@@ -76,9 +76,11 @@ export default defineConfig({
 					label: 'Prompt AI',
 					items: [
 						{ label: 'Libreria prompt', slug: 'prompt-ai' },
+						{ label: '1. Avviare la chat AI', slug: 'prompt-ai/primo-prompt' },
 						{ label: 'Creare un sito completo', slug: 'prompt-ai/sito-completo' },
 						{ label: 'Header e footer', slug: 'prompt-ai/header-footer' },
 						{ label: 'Landing e pagine', slug: 'prompt-ai/landing-pagine' },
+						{ label: 'eCommerce e contenuti', slug: 'prompt-ai/ecommerce-contenuti' },
 						{ label: 'Analisi e correzione', slug: 'prompt-ai/analisi-correzione' },
 					],
 				},

@@ -9,17 +9,24 @@ Questa sezione aiuta una persona non tecnica a iniziare una conversazione con un
 
 1. In WordPress apri **AI-HTML > Esporta per AI**.
 2. Scarica il file di contesto aggiornato.
-3. Scegli il caso d'uso e copia il prompt.
+3. Copia sempre [Prompt 1: Avviare la chat AI](/prompt-ai/primo-prompt/).
 4. Allega file e prompt alla stessa conversazione.
-5. Rispondi alle sole domande su obiettivo, pubblico, offerta e contenuti mancanti.
-6. Copia gli artefatti restituiti negli editor indicati, mantenendoli inattivi o in bozza fino alla verifica.
+5. Verifica il riepilogo restituito dalla AI.
+6. Scegli il caso d'uso successivo e continua nella stessa chat.
+7. Copia gli artefatti negli editor indicati, mantenendoli inattivi o in bozza fino alla verifica.
 
 ## Scegli un obiettivo
 
+- [1. Avviare la chat AI](/prompt-ai/primo-prompt/): primo messaggio per comprendere sito, prodotti e vincoli.
 - [Creare un sito completo](/prompt-ai/sito-completo/): architettura, pagine, header, footer e Canvas.
 - [Header e footer](/prompt-ai/header-footer/): shell globale dinamica basata su WordPress.
 - [Landing e pagine](/prompt-ai/landing-pagine/): pagine orientate a un'offerta o a una conversione.
+- [eCommerce e contenuti](/prompt-ai/ecommerce-contenuti/): catalogo, schede prodotto, magazine e piano editoriale.
 - [Analisi e correzione](/prompt-ai/analisi-correzione/): diagnosi di layout, responsive, accessibilita o runtime.
+
+## Perche il Prompt 1 viene prima
+
+Una chat commerciale non viene addestrata in modo permanente dal file allegato. Il primo prompt esegue invece un **grounding di sessione**: obbliga la AI a leggere i contratti, riepilogarli e attendere conferma. Questo riduce risposte generiche, codice incompatibile e domande tecniche rivolte all'utente.
 
 ## Regola per tutte le chat
 
