@@ -7,6 +7,42 @@ Questa modalita serve a progettare contenuti e codice con la normale interfaccia
 
 La chat classica **non e collegata al sito**, non conosce automaticamente lo stato corrente di WordPress e non puo pubblicare o fare rollback. Per operazioni dirette e governate usare Smart AI Studio con il plugin Smart AI Studio.
 
+## Cosa deve conoscere l'utente
+
+L'utente deve descrivere soltanto obiettivo, pubblico, contenuti, pagine e preferenze editoriali. Non deve conoscere endpoint REST, menu location, ID, token CSS, hook, capability o nomi dei widget.
+
+Questi dati tecnici appartengono al contratto macchina del sito e devono essere:
+
+- scoperti automaticamente da un client autorizzato; oppure
+- esportati da WordPress con un unico comando e allegati alla chat come pacchetto di contesto.
+
+Chiedere all'utente di copiare separatamente Manifest AI-HTML, contratto SBM e catalogo SBS e un flusso di emergenza, non l'esperienza finale prevista.
+
+## Tre livelli di utilizzo
+
+| Modalita | Dati tecnici | Cosa puo fare la AI | Intervento utente |
+| --- | --- | --- | --- |
+| Chat classica | Manifest o pacchetto contesto allegato | Progetta e genera artefatti | Copia il pacchetto, poi copia Code Slot o Canvas |
+| Chat con Action, connector o MCP | Lettura automatica con credenziale limitata | Scopre contratti e genera artefatti | Descrive il sito e approva il risultato |
+| Smart AI Studio | Discovery, validazione e scrittura integrate | Genera, valida, applica, verifica e ripristina | Conferma le operazioni governate |
+
+Una normale chat web non puo leggere endpoint WordPress protetti solo perche riceve il loro URL. Per la discovery automatica serve un'integrazione capace di inviare `X-Smart-AI-Key` fuori dal testo della conversazione. La chiave non deve essere incollata nel prompt.
+
+La credenziale consigliata per la sola progettazione ha permesso `READ`. I permessi `WRITE` e `PUBLISH` servono soltanto a un client che applica modifiche e devono rimanere separati dall'attivita di lettura.
+
+## Pacchetto contesto con un solo copia e incolla
+
+Quando non esiste un connector, WordPress deve offrire un unico export **Contesto per AI** che raccolga almeno:
+
+- Manifest AI-HTML;
+- consumer contract SBM per AI-HTML;
+- catalogo e schema dei widget SBS;
+- hook Code Slots disponibili;
+- versioni e capability dei prodotti;
+- soli dati operativi necessari, senza API key, nonce, utenti o altri segreti.
+
+La chat deve trattare il pacchetto come read-only. L'utente non deve interpretarlo: lo allega e continua a parlare in linguaggio naturale.
+
 ## Flusso semplice
 
 ```text
@@ -23,6 +59,8 @@ Brief dell'utente
 3. Allegare il manifest live del sito quando la proposta usa menu, logo, contatti, form o impostazioni.
 4. Chiedere un output conforme al tipo di destinazione.
 5. Controllare il risultato prima di inserirlo nel Canvas o applicarlo in WordPress.
+
+Se disponibile, al punto 3 usare il pacchetto unico **Contesto per AI** invece dei singoli documenti tecnici.
 
 ## Prompt iniziale
 
@@ -103,3 +141,17 @@ Usare Smart AI Studio, e non la sola chat classica, quando occorre:
 - registrare costi, audit e rollback.
 
 Le API key BYOK di OpenAI, Anthropic o Google appartengono all'utente e vengono configurate nello Studio. Non vanno inserite nei prompt, nella KB o nel plugin WordPress.
+
+## Obiettivo UX
+
+Il percorso minimo per una persona non tecnica deve essere:
+
+```text
+Descrivi il sito
+-> la AI scopre automaticamente lo stato WordPress
+-> la AI propone pagine, header e footer
+-> l'utente approva
+-> copia e incolla Code Slot e Canvas
+```
+
+In una chat senza connector e ammesso un passaggio aggiuntivo: **Esporta Contesto per AI** in WordPress e allegalo alla conversazione. Qualsiasi flusso che richieda di scegliere endpoint, estrarre token o spiegare una menu location e troppo tecnico e deve essere considerato una lacuna del prodotto o dell'integrazione.
