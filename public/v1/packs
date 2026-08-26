@@ -90,7 +90,7 @@
           "document_id": "prodotti-ai-html-theme",
           "path": "prodotti/ai-html-theme.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
-          "sha256": "b800781e533104dbc783cc41faa66c9b14a20d93cea85956ad73aeb47c53758c",
+          "sha256": "fa141c8d118e051e91870e822d9b8501cd8925986ed3591c1c82ff9c1445089e",
           "content_type": "text/markdown"
         },
         {
@@ -143,7 +143,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:cf2991528ae315096cd63ba0111cf25ee0a24d55ea2888795b88558becb40504"
+      "digest": "sha256:97b06bd118dbf237583000d07cfb2275b7e1c7c50ae94142003822e013014e83"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
