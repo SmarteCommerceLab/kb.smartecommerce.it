@@ -1,6 +1,6 @@
 ---
-title: 1. Avviare la chat AI
-description: Il primo prompt da usare per far comprendere alla AI sito, prodotti, risorse e limiti operativi.
+title: Prompt iniziale
+description: Il messaggio di apertura da usare per far comprendere alla AI sito, prodotti, risorse e limiti operativi.
 ---
 
 Questo e il primo messaggio da inviare in ogni nuova conversazione con ChatGPT, Claude o Gemini. Non chiede di creare codice: prepara il contesto e verifica che la AI abbia compreso l'ecosistema.
@@ -9,7 +9,7 @@ Questo e il primo messaggio da inviare in ogni nuova conversazione con ChatGPT, 
 
 Allega il file JSON scaricato da **AI-HTML > Esporta per AI**. Non allegare password, API key, cookie, nonce o credenziali WordPress.
 
-## Prompt 1 integrale
+## Prompt iniziale integrale
 
 ```text
 Leggi integralmente il file smart-ecommerce-ai-context allegato e usalo come fonte autorevole per tutta questa conversazione.

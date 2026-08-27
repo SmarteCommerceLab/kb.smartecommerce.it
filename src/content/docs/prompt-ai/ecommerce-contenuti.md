@@ -3,7 +3,7 @@ title: eCommerce e contenuti
 description: Prompt per cataloghi, schede prodotto, magazine e piani editoriali basati sulle capability reali.
 ---
 
-Usa questi prompt soltanto dopo il [Prompt 1](/prompt-ai/primo-prompt/) e dopo avere verificato che la AI abbia riconosciuto le integrazioni disponibili.
+Usa questi prompt soltanto dopo il [Prompt iniziale](/prompt-ai/primo-prompt/) e dopo avere verificato che la AI abbia riconosciuto le integrazioni disponibili.
 
 ## Catalogo prodotti
 
