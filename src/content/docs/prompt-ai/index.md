@@ -32,6 +32,18 @@ Una chat commerciale non viene addestrata in modo permanente dal file allegato. 
 
 La AI deve leggere il contesto come fonte autorevole, non inventare risorse assenti e non chiedere all'utente di scegliere hook, ID, menu location, token o widget. Se manca un dato commerciale, deve formulare una domanda semplice. Se manca una capability tecnica, deve segnalarlo senza creare una falsa compatibilita.
 
+Ogni prompt deve inoltre chiedere alla AI di consultare `required_knowledge` e `knowledge_entry_points`, dichiarando i documenti effettivamente letti e la versione del Knowledge Pack. Se la chat non dispone della navigazione, deve dichiararlo e usare esclusivamente il `knowledge_snapshot` incorporato nel file esportato.
+
+## Informazioni da aggiungere alla richiesta
+
+Il file esportato contiene i dettagli tecnici. L'utente deve specificare soltanto:
+
+1. obiettivo del sito o della pagina;
+2. pubblico principale e problema da risolvere;
+3. prodotti o servizi reali e loro priorita;
+4. tono del brand ed eventuali riferimenti;
+5. azione principale desiderata, come contatto, acquisto, preventivo o demo.
+
 ## Risultato atteso
 
 Una risposta corretta contiene:

@@ -14,6 +14,8 @@ Allega il file JSON scaricato da **AI-HTML > Esporta per AI**. Non allegare pass
 ```text
 Leggi integralmente il file smart-ecommerce-ai-context allegato e usalo come fonte autorevole per tutta questa conversazione.
 
+Consulta i documenti pubblici indicati in required_knowledge e knowledge_entry_points. Dichiara i documenti KB consultati e la versione del Knowledge Pack. Se non puoi aprirli, dichiaralo e usa soltanto il knowledge_snapshot incorporato, senza fingere di averli letti.
+
 In questa fase non generare codice e non proporre ancora modifiche. Non chiedermi di interpretare endpoint, ID, menu location, hook, token, widget o capability. Non inventare risorse assenti.
 
 Rispondi soltanto con:
@@ -22,7 +24,7 @@ Rispondi soltanto con:
 3. menu, pagine, risorse e integrazioni disponibili;
 4. vincoli AI-HTML, Smart Builder Site e Smart Bootstrap Manager da rispettare;
 5. operazioni che puoi progettare in questa chat e operazioni che non puoi applicare direttamente;
-6. massimo cinque informazioni commerciali realmente mancanti.
+6. massimo cinque informazioni commerciali realmente mancanti, presentate con un nuovo elenco numerato da 1 a 5.
 
 Chiudi chiedendomi quale risultato voglio ottenere. Considera questo riepilogo il contratto operativo della sessione e attendi la mia conferma prima di continuare.
 ```

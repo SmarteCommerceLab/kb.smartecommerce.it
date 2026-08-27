@@ -57,7 +57,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -146,14 +146,14 @@
           "document_id": "prompt-ai-index",
           "path": "prompt-ai/index.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/index/",
-          "sha256": "ccb8e98825d44c3a7dc3b79a0aa25706ec6be6441032046841070af15093078f",
+          "sha256": "b290cf72c664f023d8317a71bf8d858dbcb94531d5458d7663e5d8a54d36e136",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-primo-prompt",
           "path": "prompt-ai/primo-prompt.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/primo-prompt/",
-          "sha256": "cccfba45c522aa75bade4aba796e338dc0f46952161e6bb05e136022f20ce021",
+          "sha256": "83f4d7cc8aefb61ff27c56abb19b05369568b2290d89125c0bbbaca3a08d3bd5",
           "content_type": "text/markdown"
         },
         {
@@ -192,7 +192,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:dd6172ef395b6b58f51b25f794739adfd11f1d7675fb2f4d07bd8e639f50a10b"
+      "digest": "sha256:21fd63a67c83e5e01ceceb956bc18d84740799bf058880df1eb5f626b623c14e"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
