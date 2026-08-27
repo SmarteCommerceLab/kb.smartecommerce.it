@@ -31,7 +31,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "ai-html", "version_range": "*"}],

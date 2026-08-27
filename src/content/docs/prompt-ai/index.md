@@ -34,6 +34,8 @@ La AI deve leggere il contesto come fonte autorevole, non inventare risorse asse
 
 Ogni prompt deve inoltre chiedere alla AI di consultare `required_knowledge` e `knowledge_entry_points`, dichiarando i documenti effettivamente letti e la versione del Knowledge Pack. Se la chat non dispone della navigazione, deve dichiararlo e usare esclusivamente il `knowledge_snapshot` incorporato nel file esportato.
 
+Quando genera CSS, la AI deve leggere `contracts.sbm_authoring_contract`. In modalita `governed` deve usare esclusivamente i token esportati e le utility Bootstrap, senza valori visuali diretti. Deve infine dichiarare di avere verificato ogni regola CSS; la verifica effettiva resta il comando **Analizza codice** in AI-HTML.
+
 ## Informazioni da aggiungere alla richiesta
 
 Il file esportato contiene i dettagli tecnici. L'utente deve specificare soltanto:

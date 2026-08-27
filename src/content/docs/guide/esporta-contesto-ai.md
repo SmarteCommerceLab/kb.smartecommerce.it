@@ -14,7 +14,7 @@ La funzione **AI-HTML > Esporta per AI** crea un singolo documento JSON che perm
 5. Selezionare **Copia richiesta iniziale** e incollarla nella chat.
 6. Descrivere pagine, contenuti, pubblico e obiettivo del sito.
 7. Copiare gli artefatti restituiti nei rispettivi editor AI-HTML o SBS.
-8. Validare prima di attivare o pubblicare.
+8. Per Code Slot e Canvas usare **Analizza codice** prima di salvare e attivare.
 
 ## Contenuto del documento
 
@@ -22,6 +22,7 @@ Il formato `smart-ecommerce-ai-context` contiene:
 
 - manifest AI-HTML;
 - contratto consumer SBM;
+- contratto authoring SBM con modalita globale, token semantici e valori vietati;
 - registry widget SBS;
 - hook Code Slots disponibili;
 - versioni e capability dei prodotti;

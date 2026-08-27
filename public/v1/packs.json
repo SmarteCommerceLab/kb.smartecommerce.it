@@ -47,17 +47,17 @@
           "document_id": "guide-authoring-ai-canvas",
           "path": "guide/authoring-ai-canvas.md",
           "source_url": "https://kb.smartecommerce.it/guide/authoring-ai-canvas/",
-          "sha256": "3c078f48804bfc0c0a3e55216e0b6ad0411f5b13e97778ef77d05259299bf09a",
+          "sha256": "4b10ab02b4b1154d0f260b85079d10c6b9e49ea8629bdbe58a0a85c70b676b55",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:37f4ab77350f6b2527014c1297fa2f0a72b4e79bedd5f0cc181661b9f838353f"
+      "digest": "sha256:aff162bf8ebd241331981dfc7b00d7bae9ce747823dbb855d5f7d357e4f31efb"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "ai-html-contracts",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -132,7 +132,7 @@
           "document_id": "guide-esporta-contesto-ai",
           "path": "guide/esporta-contesto-ai.md",
           "source_url": "https://kb.smartecommerce.it/guide/esporta-contesto-ai/",
-          "sha256": "af3dff43e5d7d1840f15d337552431a33a66d490e9ef48c9993bf400b7f44793",
+          "sha256": "6fe54564d9d3b301ac8a9533e1cdc074bd55d931d36314a6fba036127c49f5d6",
           "content_type": "text/markdown"
         },
         {
@@ -146,7 +146,7 @@
           "document_id": "prompt-ai-index",
           "path": "prompt-ai/index.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/index/",
-          "sha256": "74b7b4ca8f121dbe8c361ac2f14844d41c61b71eaf6b50965e08350ac23f345a",
+          "sha256": "adf3c7bd246e3bf68e676523ed74ed1a1714e857a320e37b455acc815f7b11ff",
           "content_type": "text/markdown"
         },
         {
@@ -167,7 +167,7 @@
           "document_id": "prompt-ai-header-footer",
           "path": "prompt-ai/header-footer.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/header-footer/",
-          "sha256": "2483a97429cc5851b97e91e7bb2d87a32ec27d863e6eedc697853e1e04b2f050",
+          "sha256": "d0a895162761e1a61fcc956856e30a75585af5ee18828311c1e8a0f3372b727a",
           "content_type": "text/markdown"
         },
         {
@@ -192,7 +192,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:da701bf4a40ae4cae1df0b94fc3d2883673036ae57111254b3de450ef1e4aeaa"
+      "digest": "sha256:5b2ee9b8ff2bf48cd49a962a356d8a68adfcaf3fd3bd24de1a15c2f9eb453355"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
