@@ -33,25 +33,25 @@
           "document_id": "ai-manuale-operativo",
           "path": "ai/manuale-operativo.md",
           "source_url": "https://kb.smartecommerce.it/ai/manuale-operativo/",
-          "sha256": "0d1382a8c815cc3480bac630a2b088d36d99d5c14ff7d056f40ac1f7b63d7a72",
+          "sha256": "d7c091b9fc4a702b63d835f3292f171dd3ab179f5b6bc0c02ac1b98ae3af388f",
           "content_type": "text/markdown"
         },
         {
           "document_id": "ai-contesto-training",
           "path": "ai/contesto-training.md",
           "source_url": "https://kb.smartecommerce.it/ai/contesto-training/",
-          "sha256": "b60c0348007e8f263dd6bb9f79d280ab590f93d32bcaae7e48b038775deb7b50",
+          "sha256": "d049ed5e1376f8a3d44d9af80577d4245062f7bf33ab8cb61d9d6b259ec9d6f8",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-authoring-ai-canvas",
           "path": "guide/authoring-ai-canvas.md",
           "source_url": "https://kb.smartecommerce.it/guide/authoring-ai-canvas/",
-          "sha256": "4b10ab02b4b1154d0f260b85079d10c6b9e49ea8629bdbe58a0a85c70b676b55",
+          "sha256": "3e17c1368bccd5f74a61ada1da56705325951323d422cad564c6ee39deb848bf",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:aff162bf8ebd241331981dfc7b00d7bae9ce747823dbb855d5f7d357e4f31efb"
+      "digest": "sha256:f39d8d8bb703fb0e04cdb858bfc033f843594596f86dee1fac744e6b1f7eaee8"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -90,115 +90,115 @@
           "document_id": "prodotti-ai-html-theme",
           "path": "prodotti/ai-html-theme.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/ai-html-theme/",
-          "sha256": "a31d16e48e79cfd42c7eaec45eda2720e3cc961ee943992cf6d6162d89377322",
+          "sha256": "aae86f51935b13decc7c3070099421ae8e1b8bfc1f85357582656b7a1d2ba984",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-ai-html-integration-manifest",
           "path": "api/ai-html-integration-manifest.md",
           "source_url": "https://kb.smartecommerce.it/api/ai-html-integration-manifest/",
-          "sha256": "48355ee355c92afe4b187082ec11aba1fe3aa42cc48272de746ece8be4c39f21",
+          "sha256": "291c0c630d00c39d5a01cc322885c9ce310d6d6b96cfb77dcffbf18f3c00b6c8",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-ai-html-code-slots",
           "path": "api/ai-html-code-slots.md",
           "source_url": "https://kb.smartecommerce.it/api/ai-html-code-slots/",
-          "sha256": "2f1c6daf5e3143676cd89b3ecb95b5c61fa80bdd3572c566bfb995a32941c228",
+          "sha256": "c85215519ab1dc3a41f40b59ff97408b8b102f522d1548da7ae4b9152b5007c4",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-wordpress-runtime-canvas",
           "path": "api/wordpress-runtime-canvas.md",
           "source_url": "https://kb.smartecommerce.it/api/wordpress-runtime-canvas/",
-          "sha256": "0d35ed9d2b27db0197de8a736c888c7711fcac5b2790390ed14f4ceff7323b1e",
+          "sha256": "94fe3da0f9e96f7d7c5f8304d3c4dfeb156e1aa0dc9c566ebe1cf3bef3273d6a",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-ai-commerciali-chat-classica",
           "path": "guide/ai-commerciali-chat-classica.md",
           "source_url": "https://kb.smartecommerce.it/guide/ai-commerciali-chat-classica/",
-          "sha256": "e06bbc8d45e102e3738d7e5ff3da3071904232ca3524538c7df358c5bfc35d14",
+          "sha256": "0692b7d5b6b6b287dd08f869282b23fce12abfba060df2581ee3b38855ddfa3b",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-percorsi-ai",
           "path": "guide/percorsi-ai.md",
           "source_url": "https://kb.smartecommerce.it/guide/percorsi-ai/",
-          "sha256": "af1c3d9749bed527b2c9a00a2232ec12b9137bbec30f6615f9ef4ae8e2b04daf",
+          "sha256": "c478e722ee213391cfab2b96002c4e34ffc6ff06469762404dcecb1704594a1c",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-esporta-contesto-ai",
           "path": "guide/esporta-contesto-ai.md",
           "source_url": "https://kb.smartecommerce.it/guide/esporta-contesto-ai/",
-          "sha256": "6fe54564d9d3b301ac8a9533e1cdc074bd55d931d36314a6fba036127c49f5d6",
+          "sha256": "7ad136e358e28d3a4d03fe1a6981d64d55feabad267a3a454905c26c7a946438",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-flusso-ai-standalone",
           "path": "guide/flusso-ai-standalone.md",
           "source_url": "https://kb.smartecommerce.it/guide/flusso-ai-standalone/",
-          "sha256": "79972d45f799b93d2a20da28227a39acad14c830bc842e49dff0d70212cb830a",
+          "sha256": "2c4ee605858910fc74d545b5db335f24662d82fb6bbe293d084f36c9ae33abf4",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-index",
           "path": "prompt-ai/index.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/index/",
-          "sha256": "adf3c7bd246e3bf68e676523ed74ed1a1714e857a320e37b455acc815f7b11ff",
+          "sha256": "8146f1b2555ad10a3aecae832f9500ce915a3beb0965d28f3d4b588babb29cdf",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-primo-prompt",
           "path": "prompt-ai/primo-prompt.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/primo-prompt/",
-          "sha256": "2e7571e9fd720bf439b65c6463422ab7c2b4b97edbfea79833f98cfe4545dd2a",
+          "sha256": "5bbe6b98dde8e6a7d00a6e56871a6d2d01cf23ef4bb9060e9a139b904812ff05",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-sito-completo",
           "path": "prompt-ai/sito-completo.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/sito-completo/",
-          "sha256": "58a7e40665f0b2e6243ab79f2584d3b39be85ec43e61732b8b10a95e83b5225e",
+          "sha256": "0571d8c108ef011a45ed380a72d614dd831bb3c2ec1422e44c2b837a276ce823",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-header-footer",
           "path": "prompt-ai/header-footer.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/header-footer/",
-          "sha256": "d0a895162761e1a61fcc956856e30a75585af5ee18828311c1e8a0f3372b727a",
+          "sha256": "7db502059e90e80ca38e412e2c4ac860bf7f676796f69be48d21d00fb7619fde",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-landing-pagine",
           "path": "prompt-ai/landing-pagine.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/landing-pagine/",
-          "sha256": "dac7bf1946654c01372660f5a0eda7731354a782d413df55a0028bcd0146971d",
+          "sha256": "38064910a6b5c1e06e23a619c372974b18e83eeec56288539193188077714e80",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-ecommerce-contenuti",
           "path": "prompt-ai/ecommerce-contenuti.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/ecommerce-contenuti/",
-          "sha256": "c079da449eb30ae16c8fae8fce61a1c15e80d5f7b7f657ee67610ea1d506cb89",
+          "sha256": "9cc58cb4d26ea40b8fc0625b829c9d3357bc46d118a943b1242895b95744633c",
           "content_type": "text/markdown"
         },
         {
           "document_id": "prompt-ai-analisi-correzione",
           "path": "prompt-ai/analisi-correzione.md",
           "source_url": "https://kb.smartecommerce.it/prompt-ai/analisi-correzione/",
-          "sha256": "b1ee831adde2d4389b036cc9a41ea7dbc91a99fb526af62a0981504f12dc5d05",
+          "sha256": "1633e8b73060e00b6ab046a51a0b67e5c938554b9f27a05bc99f672dbe76f6fb",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:5b2ee9b8ff2bf48cd49a962a356d8a68adfcaf3fd3bd24de1a15c2f9eb453355"
+      "digest": "sha256:1526235fe255660e84c6aec61205126661e7687e2fb3b4662ca22e264b79b5af"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbs-builder-contracts",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -222,6 +222,8 @@
         "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget.",
         "Tratta backend, Customizer e API come viste dello stesso JSON canonico e non creare copie parallele.",
         "Per ogni riordino, duplicazione, attivazione o eliminazione conserva sanitizzazione e revisione ripristinabile.",
+        "Preferisci PATCH semantiche per testi, immagini, CTA, responsive e motion; usa codice libero solo per AI Canvas o capability non coperte dallo schema.",
+        "Segui il ciclo context, widget schema, page read, patch, preview e verifica frontend.",
         "Gestisci header e footer in AI-HTML e i widget di contenuto pagina in Smart Builder Site."
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
@@ -232,18 +234,25 @@
           "document_id": "prodotti-smart-builder-site",
           "path": "prodotti/smart-builder-site.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
-          "sha256": "7835407b1452dd0f759febfa649196e0ed0ded253f08738c04faad35eea214e1",
+          "sha256": "dc799847ecee72e9a98ceadab8a81a156386527830faebf177539dce14108d50",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-builder-json",
           "path": "api/builder-json.md",
           "source_url": "https://kb.smartecommerce.it/api/builder-json/",
-          "sha256": "dc36925b76732b7541a42c38de0716d51b52fef8a34bdcfec80064c6491fc1c3",
+          "sha256": "1942caf8d921b56824234296f9e6f413d291745a0491a5347878aabd83b5b8a1",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-sbs-authoring-semantico",
+          "path": "guide/sbs-authoring-semantico.md",
+          "source_url": "https://kb.smartecommerce.it/guide/sbs-authoring-semantico/",
+          "sha256": "56ec4bf25a8d29b5f2db9369d0ea3a9c9657e0269a8ec70e0293d374fbaa795a",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:e8d109981035178a3437476212e311116fc2a818338b3c5e5ebea10030ec408a"
+      "digest": "sha256:e5e7cb230e3907baf2d447d374a805cc6b986a4e6037f1df902effffc5fdd736"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -284,39 +293,39 @@
           "document_id": "prodotti-smart-bootstrap-manager",
           "path": "prodotti/smart-bootstrap-manager.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
-          "sha256": "23a4687a122481e1a2205477e6204536fc69dbe6c4e83b969a708f235eb097f1",
+          "sha256": "d294544d94f761d18dffc466e5f1b15fbfe773af42004de3166a913c2193ded6",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-smart-bootstrap-manager-ai-api",
           "path": "api/smart-bootstrap-manager-ai-api.md",
           "source_url": "https://kb.smartecommerce.it/api/smart-bootstrap-manager-ai-api/",
-          "sha256": "c9cf7604f0fefe35430b9a8bb3b89e8d9ead80a134d6d4d92a454131b829ef90",
+          "sha256": "116ae32e76443fb3634bfa3ad94a77518383d5713f656e4941735d9838f212a6",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-smart-bootstrap-manager-ai-workflow",
           "path": "guide/smart-bootstrap-manager-ai-workflow.md",
           "source_url": "https://kb.smartecommerce.it/guide/smart-bootstrap-manager-ai-workflow/",
-          "sha256": "600e08e0740f0f343de91df89150731b4356e1a1ad4a23b9b230123b9778bd10",
+          "sha256": "7f76551a8e67433d4a96b957d83ce42d508c6ea72d68be992fc316c81ec5bc31",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-import-export-stack",
           "path": "api/import-export-stack.md",
           "source_url": "https://kb.smartecommerce.it/api/import-export-stack/",
-          "sha256": "d50cee293cec720e4c87f02d3f998bd6c1108092e4253bcff7cf5219ffe9917e",
+          "sha256": "6fd648d23f4fbec533b92bffbe1a7ba3d07b6412c4f9320fb3505a36beb6ab63",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-wordpress-runtime-canvas",
           "path": "api/wordpress-runtime-canvas.md",
           "source_url": "https://kb.smartecommerce.it/api/wordpress-runtime-canvas/",
-          "sha256": "0d35ed9d2b27db0197de8a736c888c7711fcac5b2790390ed14f4ceff7323b1e",
+          "sha256": "94fe3da0f9e96f7d7c5f8304d3c4dfeb156e1aa0dc9c566ebe1cf3bef3273d6a",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:4fe15675a4b4d77af4db4670eaaaeda77f42c4822f568f8ce9c20aafa5778405"
+      "digest": "sha256:aea4837ae7d17bfcc43c4625a9d7a7916b028d07705afd00a69847832ad762fe"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -349,11 +358,11 @@
           "document_id": "prodotti-smart-customizer-framework",
           "path": "prodotti/smart-customizer-framework.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-customizer-framework/",
-          "sha256": "b74702de8889804313618c9697b0b4193b9c556af6d168ad024cfc84e056fae2",
+          "sha256": "7b7866fc99bf107aa4b7fd82cd7daee822f0694936054282018c36c37f89b792",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:af624fead0078ee8192dfb6685ce39d9e3aea4a274485e71dc9ce2e621cefa28"
+      "digest": "sha256:6f21bdbf5cc4ff72b2f1921c17d0cad4c49c521911c3f358f3ac1d98007070c3"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -392,39 +401,39 @@
           "document_id": "prodotti-smart-ai-assistant",
           "path": "prodotti/smart-ai-assistant.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-ai-assistant/",
-          "sha256": "ad78f4f87b9c96b4dcefe49a2938a3b345c6ef01f4192e4fd7e63ec6e11de244",
+          "sha256": "c31b62c2f518a044958130013a47f7e7aa28ab1d571bd9454c6946f68eb389ad",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-ai-assistant-tools",
           "path": "api/ai-assistant-tools.md",
           "source_url": "https://kb.smartecommerce.it/api/ai-assistant-tools/",
-          "sha256": "ef18b03cf065980f592bb8de0c1aa1a371c2465919bf47400e3c220375994275",
+          "sha256": "ff97d5fcc9c6a8de23363b5e705926794ba93fa4271c1a236176e5b172a28be7",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-attivare-smart-ai-studio",
           "path": "guide/attivare-smart-ai-studio.md",
           "source_url": "https://kb.smartecommerce.it/guide/attivare-smart-ai-studio/",
-          "sha256": "cfcddbc1d009b6edacdee7a15ed4fd19db582fa518e2bbdb729f88b24bc3a59e",
+          "sha256": "15471e33a291af16762d6ad66eacd0509df09b321da38719de6069c431768a3a",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-flusso-agente-ai",
           "path": "guide/flusso-agente-ai.md",
           "source_url": "https://kb.smartecommerce.it/guide/flusso-agente-ai/",
-          "sha256": "c9e84ca3a2ac06513cb53c29f17d785af9f2ca449d4b53d18b3f46fe63aee63d",
+          "sha256": "cd6e872c1aac35e7ce0427062bd88306c6a095b6dd0d059b33d8187c44c770ec",
           "content_type": "text/markdown"
         },
         {
           "document_id": "guide-percorsi-ai",
           "path": "guide/percorsi-ai.md",
           "source_url": "https://kb.smartecommerce.it/guide/percorsi-ai/",
-          "sha256": "af1c3d9749bed527b2c9a00a2232ec12b9137bbec30f6615f9ef4ae8e2b04daf",
+          "sha256": "c478e722ee213391cfab2b96002c4e34ffc6ff06469762404dcecb1704594a1c",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:96cbc50e3c71846ceaa792977b18e2f78f62fd0f3985f2e795c85227111e365b"
+      "digest": "sha256:994f6db7f22bf5ac8f0e033d89c051d2374084b4e4afab6d8bb4a5c30942171a"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -460,11 +469,11 @@
           "document_id": "prodotti-smart-site-login-personalize",
           "path": "prodotti/smart-site-login-personalize.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/",
-          "sha256": "814f806a805def6ba421d015ef5d58d6dc8b72b33575bb5ad1412a1414c4a48e",
+          "sha256": "e921db7e8b60644c6accc2081bd79214a48d13c38459592ecdac85b475d0f843",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:2502bc578e18a648b978399e16364ac7e49d2ef8df96721949defd77a04838dc"
+      "digest": "sha256:41aeacfab9c07f188cca8a14adb70a0a8f19506f1f5be20fa9db31e615233896"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -501,11 +510,11 @@
           "document_id": "prodotti-smart-cleaner-reset",
           "path": "prodotti/smart-cleaner-reset.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-cleaner-reset/",
-          "sha256": "f83dd09be812f53bb873ef9afe4242ab040953bddcecc1758c9643ca31774340",
+          "sha256": "a6b09c66c77a5b0e13355a56e8725a2df785e8f7c2858db468f1283546a28152",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:5c0b540591bc01ba164803f1f514415ddda43df9acd212d99d4dbca2935b0018"
+      "digest": "sha256:03c2ef11566ca54a4789dc9614bfa6fb0da0e98e79030e8f528b3cb374b4efc6"
     }
   ]
 }

@@ -22,6 +22,7 @@ La schermata **Pagine e widget** elenca soltanto le pagine che usano un template
 - anteprima integrata della pagina;
 - Builder JSON e, per i template blog, Compose JSON;
 - editor individuale del codice di ogni widget;
+- editor guidato di testi, immagini, CTA, responsive e motion;
 - campi HTML, CSS e JavaScript separati per AI Canvas;
 - comandi per spostare, duplicare, attivare, disattivare ed eliminare un widget.
 
@@ -52,6 +53,15 @@ Una AI puo:
 - applicare blueprint;
 - aggiornare documentazione widget;
 - proporre AI Canvas con HTML server-side leggibile.
+- leggere e aggiornare un singolo widget tramite campi semantici senza riscrivere l'intera pagina.
+
+Da SBS `1.22.0` il percorso preferito per modifiche ordinarie e:
+
+```text
+GET context -> GET widget schema -> GET pagina/widget -> PATCH campi semantici -> preview -> verifica frontend
+```
+
+Il tipo del widget non e modificabile dalla PATCH semantica. Per sostituire la struttura si usa il contratto Builder completo, con validazione e revisione.
 
 Una AI non deve:
 

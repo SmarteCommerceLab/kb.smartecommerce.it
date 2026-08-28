@@ -72,7 +72,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbs-builder-contracts",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "smart-builder-site", "version_range": "*"}],
@@ -84,11 +84,14 @@
         "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget.",
         "Tratta backend, Customizer e API come viste dello stesso JSON canonico e non creare copie parallele.",
         "Per ogni riordino, duplicazione, attivazione o eliminazione conserva sanitizzazione e revisione ripristinabile.",
+        "Preferisci PATCH semantiche per testi, immagini, CTA, responsive e motion; usa codice libero solo per AI Canvas o capability non coperte dallo schema.",
+        "Segui il ciclo context, widget schema, page read, patch, preview e verifica frontend.",
         "Gestisci header e footer in AI-HTML e i widget di contenuto pagina in Smart Builder Site."
       ],
       "document_paths": [
         "prodotti/smart-builder-site.md",
-        "api/builder-json.md"
+        "api/builder-json.md",
+        "guide/sbs-authoring-semantico.md"
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
       "published_at": "2026-08-28T00:00:00Z",
