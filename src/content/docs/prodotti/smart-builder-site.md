@@ -12,6 +12,29 @@ Smart Builder Site e il renderer dei contenuti pagina. Converte JSON builder in 
 - Import/export JSON builder.
 - AI Canvas per sezioni HTML/CSS/JS controllate.
 - Attributi motion dichiarativi per SBM.
+- Gestione backend dei widget per singola pagina.
+- Revisioni ripristinabili per modifiche al JSON e al codice dei widget.
+
+## Pagine e widget nel backend
+
+La schermata **Pagine e widget** elenca soltanto le pagine che usano un template SBS. Aprendo una pagina si lavora su un solo documento alla volta e si dispone di:
+
+- anteprima integrata della pagina;
+- Builder JSON e, per i template blog, Compose JSON;
+- editor individuale del codice di ogni widget;
+- campi HTML, CSS e JavaScript separati per AI Canvas;
+- comandi per spostare, duplicare, attivare, disattivare ed eliminare un widget.
+
+Ogni comando riscrive il JSON canonico dopo la sanitizzazione e crea una revisione. Backend, Customizer e API non possiedono copie differenti: sono tre interfacce sullo stesso storage WordPress.
+
+## Confini di proprieta
+
+| Elemento | Prodotto responsabile |
+| --- | --- |
+| Header, footer e shell del sito | AI-HTML |
+| Widget e contenuti della pagina | Smart Builder Site |
+| Token, Bootstrap, librerie e governance visuale | Smart Bootstrap Manager |
+| Navigazione, URL, media e contenuti | WordPress runtime |
 
 ## Regole operative
 
@@ -36,6 +59,8 @@ Una AI non deve:
 - caricare librerie motion duplicate;
 - annidare CSS/JS condivisi dentro ogni widget;
 - salvare JSON senza validazione o revisione quando impatta pagine live.
+- duplicare nel Customizer una configurazione gia aggiornata dal backend.
+- usare un'operazione widget senza identificare pagina, modalita Builder/Compose e indice corrente.
 
 ## Verifica
 
