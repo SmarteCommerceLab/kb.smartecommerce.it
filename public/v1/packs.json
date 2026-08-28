@@ -198,7 +198,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbs-builder-contracts",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -209,34 +209,41 @@
       ],
       "workflows": [
         "page_layout",
-        "canvas_generation"
+        "canvas_generation",
+        "inspect_site",
+        "validate",
+        "execute",
+        "verify"
       ],
-      "summary": "Contratti Smart Builder Site per blueprint JSON, widget registry, Builder e Compose.",
+      "summary": "Contratti Smart Builder Site per pagine, widget, blueprint JSON, Builder, Compose ed editing backend.",
       "rules": [
         "Usa soltanto widget e campi presenti nel catalogo capability del sito.",
         "Valida il Builder JSON prima della preparazione del work package.",
-        "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget."
+        "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget.",
+        "Tratta backend, Customizer e API come viste dello stesso JSON canonico e non creare copie parallele.",
+        "Per ogni riordino, duplicazione, attivazione o eliminazione conserva sanitizzazione e revisione ripristinabile.",
+        "Gestisci header e footer in AI-HTML e i widget di contenuto pagina in Smart Builder Site."
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
-      "published_at": "2026-08-03T00:00:00Z",
+      "published_at": "2026-08-28T00:00:00Z",
       "reviewed_by": "Smart eCommerce Engineering",
       "documents": [
         {
           "document_id": "prodotti-smart-builder-site",
           "path": "prodotti/smart-builder-site.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
-          "sha256": "5b4ec37a163836de5beb1fe7f3f630336277ff6a0d7ddee65c7264d1f0355141",
+          "sha256": "7835407b1452dd0f759febfa649196e0ed0ded253f08738c04faad35eea214e1",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-builder-json",
           "path": "api/builder-json.md",
           "source_url": "https://kb.smartecommerce.it/api/builder-json/",
-          "sha256": "5d40d431ba85e5992feebc28c48a7f872ef29151e5996e0b48934e787959f923",
+          "sha256": "dc36925b76732b7541a42c38de0716d51b52fef8a34bdcfec80064c6491fc1c3",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:98804c994f8d6ffbc441c005ec9bd1c7859d8cc63b04ab7100b4e84c2815716c"
+      "digest": "sha256:e8d109981035178a3437476212e311116fc2a818338b3c5e5ebea10030ec408a"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

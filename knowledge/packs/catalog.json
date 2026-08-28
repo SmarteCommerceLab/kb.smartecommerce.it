@@ -72,23 +72,26 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbs-builder-contracts",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [{"slug": "smart-builder-site", "version_range": "*"}],
-      "workflows": ["page_layout", "canvas_generation"],
-      "summary": "Contratti Smart Builder Site per blueprint JSON, widget registry, Builder e Compose.",
+      "workflows": ["page_layout", "canvas_generation", "inspect_site", "validate", "execute", "verify"],
+      "summary": "Contratti Smart Builder Site per pagine, widget, blueprint JSON, Builder, Compose ed editing backend.",
       "rules": [
         "Usa soltanto widget e campi presenti nel catalogo capability del sito.",
         "Valida il Builder JSON prima della preparazione del work package.",
-        "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget."
+        "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget.",
+        "Tratta backend, Customizer e API come viste dello stesso JSON canonico e non creare copie parallele.",
+        "Per ogni riordino, duplicazione, attivazione o eliminazione conserva sanitizzazione e revisione ripristinabile.",
+        "Gestisci header e footer in AI-HTML e i widget di contenuto pagina in Smart Builder Site."
       ],
       "document_paths": [
         "prodotti/smart-builder-site.md",
         "api/builder-json.md"
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
-      "published_at": "2026-08-03T00:00:00Z",
+      "published_at": "2026-08-28T00:00:00Z",
       "reviewed_by": "Smart eCommerce Engineering"
     },
     {
