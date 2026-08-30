@@ -284,7 +284,7 @@
           "document_id": "prodotti-smart-bootstrap-manager",
           "path": "prodotti/smart-bootstrap-manager.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
-          "sha256": "ab4df8e134961553d8184b74a505011e5f410a3c6be7361049897db23ccae8ca",
+          "sha256": "32756380360eb8d9859216a101eb8f393452cf96a884fe36905a8a57c320f7a5",
           "content_type": "text/markdown"
         },
         {
@@ -316,7 +316,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:faeebef0f77e712db363f74aa08fb0243befb785f1ad6f5b3fb723fe70c26c90"
+      "digest": "sha256:bb45ef5c2f6b3e1861418b43e55e07b0561178afd84fd4f9652726ebfcc31386"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -349,11 +349,11 @@
           "document_id": "prodotti-smart-customizer-framework",
           "path": "prodotti/smart-customizer-framework.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-customizer-framework/",
-          "sha256": "374035c992b9b81b8b6842f5572df062dbae96e55af37f0b33b89904d8d44ec6",
+          "sha256": "482cf192aec06bd9d8e368a576d76e7ebf3a03020f4d0082ec5d8abeca4dafb3",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:afa9bc77c8e3f4773b37da5966caac0f56a548f24dd8b48790c825275c8b6f7e"
+      "digest": "sha256:2c55927673eb9b760b4de8526e6d9df3dc9240caf207809bafb57d43471bd3d2"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

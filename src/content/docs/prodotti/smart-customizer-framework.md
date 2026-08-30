@@ -3,12 +3,12 @@ title: Smart Customizer Frameworks - migrazione
 description: Componente storico incorporato in Smart Bootstrap Manager dalla versione 1.9.
 ---
 
-Smart Customizer Frameworks non e piu un prodotto autonomo per le nuove installazioni. Controlli visuali, registry widget, configurazione JSON e integrazione Customizer sono incorporati in **Smart Bootstrap Manager 1.9 o successivo**.
+Smart Customizer Frameworks non e piu un prodotto autonomo per le nuove installazioni. Controlli visuali, registry widget, configurazione JSON e integrazione Customizer sono incorporati in **Smart Bootstrap Manager 1.9 o successivo**. SBM 1.10 aggiunge onboarding, rilevamento della migrazione e una console amministrativa semplificata.
 
 ## Procedura di migrazione
 
 1. Aggiornare Smart Bootstrap Manager alla versione 1.9 o successiva.
-2. Verificare in SBM la pagina **Componenti e widget**.
+2. Verificare in SBM la pagina **Componenti**.
 3. Controllare che cataloghi Builder e Compose e relativi JSON siano presenti.
 4. Disattivare Smart Customizer Frameworks.
 5. Verificare Customizer e Smart Builder Site.

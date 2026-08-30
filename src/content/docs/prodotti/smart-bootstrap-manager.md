@@ -3,7 +3,18 @@ title: Smart Bootstrap Manager
 description: Prodotto commerciale per Bootstrap, Customizer, componenti, token visuali e motion system.
 ---
 
-Smart Bootstrap Manager `1.9.0` e il prodotto commerciale unico per Bootstrap 5.3.8, token CSS, palette, tipografia, librerie UI/UX, runtime motion e controlli Customizer dell'ecosistema Smart eCommerce. Dalla versione 1.9 incorpora le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
+Smart Bootstrap Manager `1.10.0` e il prodotto commerciale unico per Bootstrap 5.3.8, token CSS, palette, tipografia, librerie UI/UX, runtime motion e controlli Customizer dell'ecosistema Smart eCommerce. Dalla versione 1.9 incorpora le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
+
+## Esperienza amministrativa
+
+La console e organizzata in quattro flussi:
+
+- **Design Bootstrap**: configurazione e anteprima di palette, tipografia, layout e componenti.
+- **Componenti**: cataloghi Builder e Compose, JSON validato, import, export e backup.
+- **API e automazioni**: JSON avanzato, REST API, OpenAPI e strumenti per agenti AI.
+- **Sistema**: diagnostica, aggiornamenti, compatibilita e ripristino selettivo.
+
+Le vecchie route Inspector, JSON/API, OpenAPI, Diagnostica e Reset restano compatibili ma non occupano piu voci separate nel menu.
 
 ## Responsabilita
 
@@ -21,6 +32,16 @@ Smart Bootstrap Manager `1.9.0` e il prodotto commerciale unico per Bootstrap 5.
 Le option storiche `smart_mizer_option_*`, le funzioni `smart_customizer_framework_*` e i relativi hook restano compatibili. Aggiornare prima SBM alla versione 1.9 o successiva, quindi disattivare e rimuovere Smart Customizer Frameworks. SBM rileva automaticamente i dati esistenti e li espone nella pagina **Componenti e widget**.
 
 SCF non e piu un requisito separato e non deve essere installato nei nuovi siti.
+
+## Edizioni commerciali
+
+La versione 1.10 dichiara il futuro perimetro Free/Premium senza applicare ancora limitazioni.
+
+**Free** mantiene runtime Bootstrap, design token di base, controlli Customizer, diagnostica essenziale, compatibilita SBS e migrazione SCF.
+
+**Premium** e previsto per cataloghi componenti personalizzati, backup e revisioni, import/export professionale, JSON/API AI, governance avanzata, librerie effetti estese, audit e strumenti multi-sito.
+
+Il runtime, il design gia pubblicato e la compatibilita del sito non devono essere disabilitati quando una licenza Premium scade. La licenza governa aggiornamenti, supporto e strumenti avanzati, non la resa del sito.
 
 ## Regola di integrazione
 
