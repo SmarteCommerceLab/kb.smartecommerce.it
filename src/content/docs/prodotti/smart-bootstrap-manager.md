@@ -3,7 +3,35 @@ title: Smart Bootstrap Manager
 description: Prodotto commerciale per Bootstrap, Customizer, componenti, token visuali e motion system.
 ---
 
-Smart Bootstrap Manager `1.10.0` e il prodotto commerciale unico per Bootstrap 5.3.8, token CSS, palette, tipografia, librerie UI/UX, runtime motion e controlli Customizer dell'ecosistema Smart eCommerce. Dalla versione 1.9 incorpora le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
+Smart Bootstrap Manager `1.10.0` e il sistema che governa Bootstrap e il design condiviso nell'ecosistema Smart eCommerce. Offre a WordPress, Smart Builder Site e AI-HTML un unico runtime, regole visuali coerenti e contratti tecnici verificabili. Dalla versione 1.9 incorpora anche le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
+
+## Panoramica prodotto
+
+SBM e l'**unico responsabile del runtime Bootstrap**. Carica e configura Bootstrap 5.3.8 una sola volta, impedendo a tema e plugin compatibili di introdurre copie concorrenti. Questo riduce conflitti tra versioni, duplicazione degli asset, differenze impreviste nel layout e costi di manutenzione.
+
+Il valore del prodotto si articola in cinque aree.
+
+### Token, palette, tipografia e Customizer integrati
+
+Colori, font, spaziature, raggi, breakpoint e altre decisioni visuali vengono governati attraverso token condivisi. Il Customizer consente di intervenire sul design senza separare la configurazione visuale dal runtime che la applica. Tema, pagine e componenti consumano quindi le stesse regole, evitando variabili CSS parallele e correzioni ripetute in piu prodotti.
+
+### Compatibilita con SBS e AI-HTML
+
+Smart Builder Site e AI-HTML possono generare pagine e widget sapendo quale versione di Bootstrap, quali token e quali capacita sono disponibili. SBM espone un contratto consumer stabile: i prodotti collegati non devono caricare librerie duplicate e possono produrre markup coerente con il sito. Questo rende piu affidabile sia l'editing umano sia la generazione assistita dall'AI.
+
+### Componenti governati e contratti JSON/API
+
+Cataloghi, preset e configurazioni dei componenti sono descritti tramite dati strutturati e JSON validato. Le API e la specifica OpenAPI rendono queste informazioni ispezionabili anche da integrazioni e agenti AI. Prima di applicare una modifica e quindi possibile leggere lo stato, verificare lo schema, validare il dato e controllare il risultato.
+
+### Migrazione automatica da SCF
+
+SBM incorpora le funzioni operative di Smart Customizer Frameworks e riconosce le configurazioni storiche gia presenti nel sito. L'aggiornamento conserva option, funzioni e hook compatibili, permettendo di rimuovere SCF come plugin separato senza ricostruire il design o interrompere i consumer esistenti.
+
+### Diagnostica dei conflitti e controllo degli asset
+
+Gli strumenti di sistema verificano runtime, aggiornamenti, compatibilita e possibili duplicazioni. L'obiettivo non e soltanto segnalare un errore, ma identificare quale prodotto sta caricando Bootstrap o una libreria condivisa fuori dal contratto previsto. Il controllo centralizzato facilita manutenzione, supporto e verifica delle installazioni prima della pubblicazione.
+
+In termini commerciali, SBM non e un semplice caricatore di Bootstrap: e il livello di **governance del design e del runtime** che rende compatibili WordPress, Smart Builder Site, AI-HTML e i componenti dell'ecosistema.
 
 ## Esperienza amministrativa
 
