@@ -1,9 +1,9 @@
 ---
 title: Smart Bootstrap Manager
-description: Runtime Bootstrap, token visuali, librerie UI/UX e motion system.
+description: Prodotto commerciale per Bootstrap, Customizer, componenti, token visuali e motion system.
 ---
 
-Smart Bootstrap Manager `1.8.5` e la sorgente unica per Bootstrap 5.3.8, token CSS, palette, tipografia, librerie UI/UX e runtime motion dell'ecosistema Smart eCommerce.
+Smart Bootstrap Manager `1.9.0` e il prodotto commerciale unico per Bootstrap 5.3.8, token CSS, palette, tipografia, librerie UI/UX, runtime motion e controlli Customizer dell'ecosistema Smart eCommerce. Dalla versione 1.9 incorpora le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
 
 ## Responsabilita
 
@@ -12,6 +12,15 @@ Smart Bootstrap Manager `1.8.5` e la sorgente unica per Bootstrap 5.3.8, token C
 - Esporre librerie UI/FX senza duplicazioni.
 - Eseguire effetti dichiarati tramite attributi `data-sbin-*`.
 - Governare compliance visuale e `prefers-reduced-motion`.
+- Fornire i controlli Customizer Builder e Compose.
+- Gestire cataloghi componenti e widget tramite JSON validato.
+- Offrire CRUD, import, export e backup delle configurazioni componenti.
+
+## Migrazione da SCF
+
+Le option storiche `smart_mizer_option_*`, le funzioni `smart_customizer_framework_*` e i relativi hook restano compatibili. Aggiornare prima SBM alla versione 1.9 o successiva, quindi disattivare e rimuovere Smart Customizer Frameworks. SBM rileva automaticamente i dati esistenti e li espone nella pagina **Componenti e widget**.
+
+SCF non e piu un requisito separato e non deve essere installato nei nuovi siti.
 
 ## Regola di integrazione
 

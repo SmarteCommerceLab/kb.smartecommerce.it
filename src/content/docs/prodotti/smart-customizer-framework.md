@@ -1,33 +1,21 @@
 ---
-title: Smart Customizer Framework
-description: Controlli visuali, registry widget e configurazione Customizer dello stack.
+title: Smart Customizer Frameworks - migrazione
+description: Componente storico incorporato in Smart Bootstrap Manager dalla versione 1.9.
 ---
 
-Smart Customizer Framework fornisce l'interfaccia visuale generata dal registry Smart Builder Site. Non renderizza pagine e non possiede il contenuto finale.
+Smart Customizer Frameworks non e piu un prodotto autonomo per le nuove installazioni. Controlli visuali, registry widget, configurazione JSON e integrazione Customizer sono incorporati in **Smart Bootstrap Manager 1.9 o successivo**.
 
-## Responsabilita
+## Procedura di migrazione
 
-- controlli Customizer avanzati;
-- builder/compose controls;
-- catalogo configurabile dei widget;
-- motion per singolo item;
-- serializzazione ordinata delle configurazioni.
+1. Aggiornare Smart Bootstrap Manager alla versione 1.9 o successiva.
+2. Verificare in SBM la pagina **Componenti e widget**.
+3. Controllare che cataloghi Builder e Compose e relativi JSON siano presenti.
+4. Disattivare Smart Customizer Frameworks.
+5. Verificare Customizer e Smart Builder Site.
+6. Rimuovere il plugin SCF separato.
 
-## Confini
+## Compatibilita
 
-SCF non deve duplicare:
+SBM mantiene le option `smart_mizer_option_*`, le funzioni `smart_customizer_framework_*` e gli hook consumati da Smart Builder Site. Non e necessario convertire manualmente il JSON esistente.
 
-- rendering widget di Smart Builder Site;
-- token e librerie di Smart Bootstrap Manager;
-- header/footer di AI-HTML;
-- storage business dei prodotti verticali.
-
-## Regole per AI
-
-Una AI deve modificare SCF solo quando il problema riguarda il controllo visuale, lo schema configurabile o l'esperienza Customizer. Se il problema e nel markup pubblico, verificare prima Smart Builder Site o AI-HTML.
-
-## Documenti locali utili
-
-- `smart-customizer-frameworks/INTEGRATION-CONTRACT.md`
-- `smart-customizer-frameworks/DEV-STATUS.md`
-- `smart-customizer-frameworks/CHANGELOG.md`
+La release SCF 1.8 e soltanto una transizione: se trova SBM 1.9 attivo, non avvia un secondo runtime e segnala che puo essere rimossa.

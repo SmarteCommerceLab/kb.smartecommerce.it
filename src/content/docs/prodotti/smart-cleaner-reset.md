@@ -7,6 +7,10 @@ Smart Cleaner Reset gestisce la pulizia selettiva e il ripristino di WordPress
 senza trasformare una richiesta in linguaggio naturale in una cancellazione
 diretta. L'operatore o la AI preparano prima un piano verificabile.
 
+## Edizioni e dipendenze
+
+Smart Cleaner Reset e disponibile nelle edizioni **Free** e **Premium**. Entrambe sono prodotti autonomi: non richiedono Smart Bootstrap Manager, Smart Customizer Frameworks, Smart Builder Site o il tema AI-HTML. La versione Premium aggiunge le funzioni commerciali previste dal proprio piano, senza cambiare questo principio di indipendenza.
+
 ## Flusso governato
 
 1. Leggere il registro delle componenti disponibili.
