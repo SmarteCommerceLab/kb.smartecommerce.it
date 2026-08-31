@@ -284,7 +284,7 @@
           "document_id": "prodotti-smart-bootstrap-manager",
           "path": "prodotti/smart-bootstrap-manager.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
-          "sha256": "dff77c6dc1d724ef04418b8c50b6c46584f0179b9c806c12094c513b0b4c947c",
+          "sha256": "be7dd32db0c61b6bc7235b723cf66af963cafa476aeacd62263e088f6a659729",
           "content_type": "text/markdown"
         },
         {
@@ -316,7 +316,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:e622565797e523c2aac77aaf63252fa94ca9d7f228ef6d1f0ad36b8e61b53d54"
+      "digest": "sha256:48bfe94f157d06fbfac5bd1e7096500f3cd77d90a743d392da540ce593d15579"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

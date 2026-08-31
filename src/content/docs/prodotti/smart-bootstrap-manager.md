@@ -3,7 +3,7 @@ title: Smart Bootstrap Manager
 description: Prodotto commerciale per Bootstrap, Customizer, componenti, token visuali e motion system.
 ---
 
-Smart Bootstrap Manager `1.10.0` e il sistema che governa Bootstrap e il design condiviso nell'ecosistema Smart eCommerce. Offre a WordPress, Smart Builder Site e AI-HTML un unico runtime, regole visuali coerenti e contratti tecnici verificabili. Dalla versione 1.9 incorpora anche le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
+Smart Bootstrap Manager `1.10.1` e il sistema che governa Bootstrap e il design condiviso nell'ecosistema Smart eCommerce. Offre a WordPress, Smart Builder Site e AI-HTML un unico runtime, regole visuali coerenti e contratti tecnici verificabili. Dalla versione 1.9 incorpora anche le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
 
 ## Panoramica prodotto
 
@@ -35,7 +35,14 @@ In termini commerciali, SBM non e un semplice caricatore di Bootstrap: e il live
 
 ## Esperienza amministrativa
 
-La console e organizzata in quattro flussi:
+La navigazione interna usa sezioni esplicite, coerenti con Smart Builder Site e AI-HTML:
+
+- **Panoramica**: contiene la Dashboard e gli accessi rapidi.
+- **Progettazione**: raccoglie Design Bootstrap e Componenti.
+- **Integrazioni**: contiene API e automazioni.
+- **Sistema**: contiene controlli sul runtime, aggiornamenti e ripristino.
+
+Le sezioni organizzano le funzioni senza aggiungere pagine duplicate. La console mantiene quattro flussi operativi:
 
 - **Design Bootstrap**: configurazione e anteprima di palette, tipografia, layout e componenti.
 - **Componenti**: cataloghi Builder e Compose, JSON validato, import, export e backup.
