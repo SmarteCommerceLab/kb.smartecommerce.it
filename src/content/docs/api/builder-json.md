@@ -29,6 +29,24 @@ SBS conserva i widget come array ordinato. Le operazioni disponibili nel backend
 
 Dopo ogni operazione SBS applica il sanitizzatore Builder o Compose, aggiorna lo storage condiviso e crea una revisione. Una AI deve quindi leggere nuovamente il JSON dopo un'operazione prima di usare gli indici dei widget.
 
+## Editor semantico e API AI
+
+Per testi, media, CTA, responsive e motion non e necessario modificare a mano il JSON completo. Il backend espone un editor guidato e le API espongono lo stesso contratto:
+
+```text
+GET   /wp-json/sbs/v1/ai/pages/{page_id}/{mode}/{widget_index}
+PATCH /wp-json/sbs/v1/ai/pages/{page_id}/{mode}/{widget_index}
+```
+
+Campi accettati dalla PATCH:
+
+- `name` e `active`;
+- `texts`, `images` e `cta` come array JSON normali;
+- `responsive.stack` con `mobile`, `tablet` o `never`;
+- `motion.enabled` e `motion.reveal`.
+
+SBS serializza i repeater nel formato canonico, applica il sanitizzatore Builder/Compose e crea una revisione. La PATCH non accetta la sostituzione di `widget` e non e un canale per inserire PHP o codice server-side.
+
 ## Storage condiviso
 
 Le chiavi seguono il contratto:

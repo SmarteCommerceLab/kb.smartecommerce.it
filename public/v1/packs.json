@@ -198,7 +198,7 @@
       "schema": "smart-ecommerce.knowledge-pack",
       "schema_version": 1,
       "pack_id": "sbs-builder-contracts",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "lifecycle": "approved",
       "locale": "it-IT",
       "products": [
@@ -222,6 +222,8 @@
         "Preferisci Canvas AI per sezioni editoriali complesse senza perdere il contratto widget.",
         "Tratta backend, Customizer e API come viste dello stesso JSON canonico e non creare copie parallele.",
         "Per ogni riordino, duplicazione, attivazione o eliminazione conserva sanitizzazione e revisione ripristinabile.",
+        "Preferisci PATCH semantiche per testi, immagini, CTA, responsive e motion; usa codice libero solo per AI Canvas o capability non coperte dallo schema.",
+        "Segui il ciclo context, widget schema, page read, patch, preview e verifica frontend.",
         "Gestisci header e footer in AI-HTML e i widget di contenuto pagina in Smart Builder Site."
       ],
       "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
@@ -232,18 +234,25 @@
           "document_id": "prodotti-smart-builder-site",
           "path": "prodotti/smart-builder-site.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-builder-site/",
-          "sha256": "7835407b1452dd0f759febfa649196e0ed0ded253f08738c04faad35eea214e1",
+          "sha256": "723808d04736c9bb965bc3c97c44ff376706143a548249420c4a1732fea9c005",
           "content_type": "text/markdown"
         },
         {
           "document_id": "api-builder-json",
           "path": "api/builder-json.md",
           "source_url": "https://kb.smartecommerce.it/api/builder-json/",
-          "sha256": "dc36925b76732b7541a42c38de0716d51b52fef8a34bdcfec80064c6491fc1c3",
+          "sha256": "ad856b1d476d0bc5b6a633710314188379dc58d2360af96dfe1fb53e6476b20c",
+          "content_type": "text/markdown"
+        },
+        {
+          "document_id": "guide-sbs-authoring-semantico",
+          "path": "guide/sbs-authoring-semantico.md",
+          "source_url": "https://kb.smartecommerce.it/guide/sbs-authoring-semantico/",
+          "sha256": "c07a668c1a2cfc693d6be9a51e24509b2fd93f0595d288113a9f463ebd4a49d0",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:e8d109981035178a3437476212e311116fc2a818338b3c5e5ebea10030ec408a"
+      "digest": "sha256:6e4cc6e43ff6f80e35f94e4433290e3b19355212d449a8404020da0e67e4ae10"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
