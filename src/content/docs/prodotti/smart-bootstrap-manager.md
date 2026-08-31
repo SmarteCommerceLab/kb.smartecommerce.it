@@ -3,7 +3,7 @@ title: Smart Bootstrap Manager
 description: Prodotto commerciale per Bootstrap, Customizer, componenti, token visuali e motion system.
 ---
 
-Smart Bootstrap Manager `1.10.18` e il sistema che governa Bootstrap e il design condiviso nell'ecosistema Smart eCommerce. Offre a WordPress, Smart Builder Site e AI-HTML un unico runtime, regole visuali coerenti e contratti tecnici verificabili. Dalla versione 1.9 incorpora anche le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
+Smart Bootstrap Manager `1.11.0` e il sistema che governa Bootstrap e il design condiviso nell'ecosistema Smart eCommerce. Offre a WordPress, Smart Builder Site e AI-HTML un unico runtime, regole visuali coerenti e contratti tecnici verificabili. Dalla versione 1.9 incorpora anche le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
 
 ## Panoramica prodotto
 
@@ -98,15 +98,38 @@ Le option storiche `smart_mizer_option_*`, le funzioni `smart_customizer_framewo
 
 SCF non e piu un requisito separato e non deve essere installato nei nuovi siti.
 
-## Edizioni commerciali
+## Prodotto commerciale
 
-La versione 1.10 dichiara il futuro perimetro Free/Premium senza applicare ancora limitazioni.
+SBM viene distribuito in una sola edizione a pagamento. Non esistono una
+versione Free, un tier Premium o funzioni sbloccate separatamente: runtime,
+token, Customizer, cataloghi, backup, JSON/API, diagnostica ed effetti fanno
+parte dello stesso prodotto.
 
-**Free** mantiene runtime Bootstrap, design token di base, controlli Customizer, diagnostica essenziale, compatibilita SBS e migrazione SCF.
+La base tecnica commerciale e pronta dalla versione 1.11.0. Freemius sara
+integrato nell'ultima fase per checkout, entitlement, account e aggiornamenti
+protetti. Fino a quel momento il prodotto non deve essere dichiarato
+acquistabile e Smart Repository resta un canale tecnico di pre-lancio.
 
-**Premium** e previsto per cataloghi componenti personalizzati, backup e revisioni, import/export professionale, JSON/API AI, governance avanzata, librerie effetti estese, audit e strumenti multi-sito.
+Una scadenza, un errore di rete o l'indisponibilita del provider commerciale
+non devono interrompere il frontend, rimuovere il design salvato o corrompere
+le pagine. Licenza e rinnovo governeranno distribuzione, aggiornamenti e
+supporto, non il rendering gia installato.
 
-Il runtime, il design gia pubblicato e la compatibilita del sito non devono essere disabilitati quando una licenza Premium scade. La licenza governa aggiornamenti, supporto e strumenti avanzati, non la resa del sito.
+### Dati e privacy
+
+La versione 1.11.0 non carica SDK commerciali, non abilita telemetria e non
+trasmette configurazioni a Smart eCommerce o Freemius. Palette, registri,
+backup, revisioni e audit restano nel database WordPress. La disinstallazione
+elimina le option possedute da SBM; prima della rimozione e consigliato
+esportare le configurazioni da conservare.
+
+### Perimetro del supporto
+
+Il supporto prodotto comprende installazione, aggiornamenti, conflitti del
+runtime Bootstrap, migrazione SCF, integrazioni documentate con SBS e AI-HTML,
+import/export e ripristino dei backup. Sviluppo di widget personalizzati,
+correzione di codice terzo e personalizzazioni del tema sono servizi
+professionali separati.
 
 ## Regola di integrazione
 

@@ -293,7 +293,7 @@
           "document_id": "prodotti-smart-bootstrap-manager",
           "path": "prodotti/smart-bootstrap-manager.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-bootstrap-manager/",
-          "sha256": "5658078efe311277cf2a654f6dd4cbdee5ca0764685abcf48559b20e2360c289",
+          "sha256": "fb3ec42d1d91d47c93fff264647d5a3b1ea320cc09dc2d1f1ec4312ded1a8471",
           "content_type": "text/markdown"
         },
         {
@@ -325,7 +325,7 @@
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:3033ae3c231eb8e9bc33f4cd010170da253f8a403bb25ba70450efa034c943d8"
+      "digest": "sha256:a81f631be8bfb996a64a64aaa0c425727cc885a2993de6d67396ea2affb8a78e"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -358,11 +358,11 @@
           "document_id": "prodotti-smart-customizer-framework",
           "path": "prodotti/smart-customizer-framework.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-customizer-framework/",
-          "sha256": "482cf192aec06bd9d8e368a576d76e7ebf3a03020f4d0082ec5d8abeca4dafb3",
+          "sha256": "51460023498fc0018375fa834c3f79a419eec52c48f8a086b173c2d0eaed457f",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:2c55927673eb9b760b4de8526e6d9df3dc9240caf207809bafb57d43471bd3d2"
+      "digest": "sha256:90e569229493d7377d4f7cb2cdc0fb99662c7d0b8beb2113eb97563e390aa56e"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",
@@ -510,11 +510,11 @@
           "document_id": "prodotti-smart-cleaner-reset",
           "path": "prodotti/smart-cleaner-reset.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-cleaner-reset/",
-          "sha256": "7b776d623cd72e36056db8b9ff9bf37bc1dcb8eab6312e73918b68fa7d7296c7",
+          "sha256": "f8486d1b18d7ef3099e0c2e25c54a30b6c1daccd443935ca07d8f9867c009687",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:09d588cde04784480f2d980118204b2f2413ed13e2c6fa25e9dd53f7664996bc"
+      "digest": "sha256:9a0467049751997af15ef6329e210ba6a8e80f358c4cdf7f1bd08b4316862c99"
     }
   ]
 }
