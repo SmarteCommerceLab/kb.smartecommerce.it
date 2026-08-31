@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">Registri componenti SBM</title>
+  <desc id="desc">I registri descrivono componenti implementati nei prodotti consumer e non contengono codice sorgente.</desc>
+  <rect width="1400" height="500" fill="#f6f7f9"/>
+  <g font-family="Arial,sans-serif">
+    <text x="60" y="66" font-size="25" font-weight="700" fill="#18212b">Registri SBM e renderer reali</text>
+    <text x="60" y="94" font-size="15" fill="#56616d">Il registro governa metadati e disponibilita; il prodotto consumer esegue il codice.</text>
+    <g transform="translate(60 140)"><rect width="330" height="92" rx="6" fill="#fff" stroke="#d6d9dd"/><rect width="8" height="92" fill="#2276b8"/><text x="30" y="39" font-size="17" font-weight="700" fill="#18212b">Builder items</text><text x="30" y="66" font-size="14" fill="#56616d">Componenti standard e corporate</text></g>
+    <g transform="translate(60 250)"><rect width="330" height="92" rx="6" fill="#fff" stroke="#d6d9dd"/><rect width="8" height="92" fill="#0f8b68"/><text x="30" y="39" font-size="17" font-weight="700" fill="#18212b">Builder special_items</text><text x="30" y="66" font-size="14" fill="#56616d">Tipi speciali supportati</text></g>
+    <g transform="translate(60 360)"><rect width="330" height="92" rx="6" fill="#fff" stroke="#d6d9dd"/><rect width="8" height="92" fill="#8a5a00"/><text x="30" y="39" font-size="17" font-weight="700" fill="#18212b">Compose items</text><text x="30" y="66" font-size="14" fill="#56616d">Componenti editoriali e blog</text></g>
+    <path d="M410 186 H640 M410 296 H640 M410 406 H640" stroke="#7a8793" stroke-width="2"/>
+    <path d="M630 178 L644 186 L630 194 M630 288 L644 296 L630 304 M630 398 L644 406 L630 414" fill="none" stroke="#7a8793" stroke-width="2"/>
+    <rect x="660" y="158" width="290" height="266" rx="6" fill="#fff" stroke="#b8c0c8"/>
+    <text x="694" y="205" font-size="19" font-weight="700" fill="#18212b">Contratto JSON</text>
+    <text x="694" y="248" font-size="15" fill="#56616d">code = ID renderer</text><text x="694" y="282" font-size="15" fill="#56616d">label e suffix</text><text x="694" y="316" font-size="15" fill="#56616d">category</text><text x="694" y="350" font-size="15" fill="#56616d">enabled</text>
+    <text x="694" y="392" font-size="13" fill="#b04a00">Non contiene codice sorgente</text>
+    <path d="M970 291 H1080" stroke="#2276b8" stroke-width="3"/><path d="M1068 281 L1084 291 L1068 301" fill="none" stroke="#2276b8" stroke-width="3"/>
+    <rect x="1100" y="202" width="240" height="178" rx="6" fill="#18212b"/>
+    <text x="1132" y="249" font-size="18" font-weight="700" fill="#fff">Renderer consumer</text><text x="1132" y="287" font-size="14" fill="#dce3ea">Smart Builder Site</text><text x="1132" y="317" font-size="14" fill="#dce3ea">o consumer compatibile</text><text x="1132" y="351" font-size="13" fill="#77c7ff">HTML / CSS / JS / PHP</text>
+  </g>
+</svg>

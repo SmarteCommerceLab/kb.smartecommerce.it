@@ -3,7 +3,7 @@ title: Smart Bootstrap Manager
 description: Prodotto commerciale per Bootstrap, Customizer, componenti, token visuali e motion system.
 ---
 
-Smart Bootstrap Manager `1.10.1` e il sistema che governa Bootstrap e il design condiviso nell'ecosistema Smart eCommerce. Offre a WordPress, Smart Builder Site e AI-HTML un unico runtime, regole visuali coerenti e contratti tecnici verificabili. Dalla versione 1.9 incorpora anche le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
+Smart Bootstrap Manager `1.10.18` e il sistema che governa Bootstrap e il design condiviso nell'ecosistema Smart eCommerce. Offre a WordPress, Smart Builder Site e AI-HTML un unico runtime, regole visuali coerenti e contratti tecnici verificabili. Dalla versione 1.9 incorpora anche le funzionalita utili precedentemente distribuite come Smart Customizer Frameworks.
 
 ## Panoramica prodotto
 
@@ -45,11 +45,41 @@ La navigazione interna usa sezioni esplicite, coerenti con Smart Builder Site e 
 Le sezioni organizzano le funzioni senza aggiungere pagine duplicate. La console mantiene quattro flussi operativi:
 
 - **Design Bootstrap**: configurazione e anteprima di palette, tipografia, layout e componenti.
-- **Componenti**: cataloghi Builder e Compose, JSON validato, import, export e backup.
+- **Componenti**: riepilogo KPI, registri Builder e Compose, JSON validato, import, export e backup.
 - **API e automazioni**: JSON avanzato, REST API, OpenAPI e strumenti per agenti AI.
 - **Sistema**: diagnostica, aggiornamenti, compatibilita e ripristino selettivo.
 
 Le vecchie route Inspector, JSON/API, OpenAPI, Diagnostica e Reset restano compatibili ma non occupano piu voci separate nel menu.
+
+### Pagina Componenti e widget
+
+La pagina mette per primi i quattro indicatori necessari a capire lo stato della configurazione: componenti totali, abilitati, disabilitati e backup disponibili. Subito dopo espone stato dello schema e azioni di download, ripristino e backup. Gli inventari estesi non vengono duplicati nella schermata: il dato completo resta disponibile negli editor JSON separati.
+
+![Gerarchia della pagina Componenti con KPI in testa](/images/sbm-componenti-gerarchia-1.10.18.svg)
+
+### Cosa rappresentano i tre registri
+
+I registri non contengono il codice HTML, CSS, JavaScript o PHP del widget. Dichiarano componenti gia implementati da Smart Builder Site o da un consumer compatibile e permettono a SBM di governarne disponibilita e metadati.
+
+| Registro | Contenuto | Utilizzo |
+| --- | --- | --- |
+| Builder `items` | Componenti standard e corporate | Pagine e widget del controllo Builder |
+| Builder `special_items` | Tipi speciali gia supportati | Componenti con comportamento dedicato |
+| Compose `items` | Componenti editoriali e blog | Layout gestiti dal controllo Compose |
+
+![Relazione tra registri SBM e renderer dei componenti](/images/sbm-registri-componenti-1.10.18.svg)
+
+Ogni voce usa un `code` che deve coincidere con l'ID del renderer reale, piu `label`, `suffix`, `category` e stato `enabled`. Registrare un ID inesistente non crea un widget: produce soltanto una voce senza renderer utilizzabile.
+
+### Gestione operativa dei registri
+
+1. Implementare o verificare il renderer nel prodotto responsabile, normalmente Smart Builder Site.
+2. Registrare lo stesso ID tecnico nel registro Builder o Compose appropriato.
+3. Controllare il payload nell'editor JSON avanzato e formattarlo prima del salvataggio.
+4. Salvare entrambi i registri; SBM valida il dato e crea lo snapshot necessario al ripristino.
+5. Usare download, import, default e backup per trasferimento o recupero della configurazione.
+
+La rimozione delle tre tabelle dalla pagina non elimina alcun componente e non modifica i JSON salvati. Riduce una rappresentazione duplicata: ispezione e CRUD continuano a essere disponibili nell'area JSON, mentre questa KB conserva definizioni e procedura.
 
 ## Responsabilita
 
