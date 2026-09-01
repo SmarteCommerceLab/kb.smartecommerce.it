@@ -1,9 +1,9 @@
 ---
-title: Smart Site Login Personalize
-description: Prodotto Premium autonomo per design, accesso e governance della login WordPress.
+title: Smart Login
+description: Identity, Security & Design for WordPress.
 ---
 
-Smart Site Login Personalize e un prodotto **Premium autonomo**. Non dipende da
+Smart Login e un prodotto **Premium autonomo**. Non dipende da
 Smart Bootstrap Manager e mantiene una responsabilita distinta: governare
 l'esperienza di accesso WordPress, la sua identita visiva e i flussi successivi
 all'autenticazione. Puo quindi essere venduto e installato anche fuori dallo
@@ -11,37 +11,61 @@ stack Bootstrap Smart eCommerce.
 
 ## Panoramica prodotto
 
-La pagina di configurazione separa il lavoro in tab contestuali: template,
-media, stile, posizione, URL login, opzioni aggiuntive, Google OAuth, redirect e
-JSON. Le tab sono navigabili da tastiera, mantengono un collegamento diretto
+Il posizionamento ufficiale e **Identity, Security & Design for WordPress**. La
+pagina di configurazione separa il lavoro in tab contestuali: template, media,
+stile, posizione, URL login, Identity/OAuth, sicurezza, redirect e JSON. Le tab
+sono navigabili da tastiera, mantengono un collegamento diretto
 tramite URL e diventano scorrevoli sui display stretti. La sidebar del plugin
 rimane invece la navigazione tra le aree principali del prodotto.
 
 ## Funzioni
 
-- template `custom`, `classic-right`, `centered`, `split`, `fullscreen`;
+- template `custom`, `classic-right`, `centered`, `split`, `fullscreen`,
+  `commerce`, `membership` e `corporate-secure`;
 - preset colore light, dark, glass, corporate;
 - login URL personalizzata;
 - blocco opzionale di `wp-login.php`;
-- Google OAuth;
+- OAuth Google, Microsoft, GitHub e Apple;
+- policy 2FA basata sul motore ufficiale WordPress Two-Factor, con TOTP e codici
+  di recupero;
+- rate limiting, Cloudflare Turnstile e Google reCAPTCHA;
+- regole di accesso per ruolo, indirizzo IP e fascia oraria;
+- audit locale ricercabile, retention configurabile ed export CSV;
 - redirect post-login per ruolo;
 - preview admin;
-- import/export JSON.
+- import/export JSON;
 - font di sistema oppure Inter, Roboto, Lato, Montserrat, Poppins e Playfair Display;
-- pagina Sistema separata per aggiornamenti, manifest e diagnostica.
+- pagina Sistema con aggiornamenti, manifest e Compatibility Lab.
 
 ## Font esterni e privacy
 
-I font esterni servono ad ampliare la personalizzazione commerciale della pagina
-login. Sono caricati da Google Fonts **solo nella pagina di accesso** e solo
-quando viene selezionata una famiglia remota. La scelta "Font di sistema" non
-effettua richieste esterne. Il titolare del sito deve valutare questa opzione in
-base alla propria informativa privacy e alle regole applicabili al progetto.
+I font possono usare il sistema, essere richiesti da Google oppure essere
+scaricati dal server e pubblicati localmente. La modalita locale mantiene la
+varieta tipografica senza richieste del browser verso servizi esterni.
+
+## Identity e sicurezza
+
+Google verifica state, nonce e claim OIDC. Apple firma il client secret ES256 e
+verifica l'ID token con le chiavi pubbliche Apple; Microsoft e GitHub usano
+callback e scambio token server-side. Le chiavi sensibili possono essere
+definite in `wp-config.php` e non sono incluse negli export.
+
+La modifica dell'URL riduce scansioni e tentativi automatici, ma non viene
+presentata come protezione completa: opera insieme a rate limit, CAPTCHA, 2FA,
+audit, aggiornamenti e password robuste. Una chiave di recovery separata evita
+che un errore di rewrite impedisca l'accesso amministrativo.
+
+## Compatibilita
+
+Il Compatibility Lab rileva WordPress multisite, WooCommerce, BuddyPress,
+MemberPress, WordPress Two-Factor, cache/CDN e plugin concorrenti che riscrivono
+la login. OAuth e CAPTCHA sono inseriti anche nei form compatibili dei prodotti
+rilevati.
 
 ## Sicurezza JSON
 
 Il JSON rimane sempre ispezionabile e modificabile dagli amministratori. Le
-esportazioni non includono il `client_secret` Google OAuth; un'importazione che
+esportazioni non includono secret OAuth, chiave Apple o secret CAPTCHA; un'importazione che
 non contiene il segreto preserva quello gia configurato. Le modifiche REST e
 JSON passano dalla stessa whitelist e sanitizzazione usata dalla UI.
 
