@@ -18,12 +18,17 @@ principali non sono affiancati e non usano arrotondamenti decorativi. Le card
 sono riservate a KPI, azioni ripetute e componenti realmente indipendenti, con
 un raggio massimo di 8 px.
 
-## Colore WordPress
+## Colore WordPress: regola primaria
 
-La barra con nome e versione del prodotto segue automaticamente lo schema
-colori scelto nel profilo WordPress. Il menu interno mantiene invece il blu
-WordPress canonico per link, stato attivo e azioni principali. In questo modo
-la personalizzazione del profilo non modifica il significato degli stati UI.
+L'intera UI amministrativa del prodotto segue automaticamente lo schema colori
+scelto nel profilo WordPress. Il colore principale governa la barra con nome e
+versione; l'accento dello schema governa menu attivo, link, icone KPI, tab
+selezionate e pulsanti primari. Il colore del testo attivo deriva a sua volta
+dallo schema WordPress.
+
+I colori proprietari del prodotto sono ammessi nel marchio e nelle anteprime
+dei contenuti gestiti, ma non possono sostituire il color system WordPress nel
+guscio amministrativo.
 
 ## Tipografia e navigazione
 
