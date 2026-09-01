@@ -34,7 +34,11 @@ Le API usano dot-notation flat:
 
 ## Regole per AI
 
-Leggere prima lo schema, inviare solo campi da modificare, lasciare vuoti i segreti non disponibili e non alterare `wp-login.php` o redirect ruoli senza verifica.
+Leggere prima lo schema, inviare solo campi da modificare e non alterare
+`wp-login.php` o redirect ruoli senza verifica. `google.client_secret` e
+scrivibile solo da un amministratore autorizzato, viene oscurato in lettura e
+non compare nelle esportazioni JSON. L'assenza del campo durante un'importazione
+preserva il valore gia configurato.
 
 ## Fonte locale
 
