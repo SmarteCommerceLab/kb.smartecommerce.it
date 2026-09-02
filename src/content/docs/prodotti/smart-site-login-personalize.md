@@ -34,7 +34,7 @@ rimane invece la navigazione tra le aree principali del prodotto.
 - redirect post-login per ruolo;
 - preview admin;
 - import/export JSON;
-- font di sistema oppure Inter, Roboto, Lato, Montserrat, Poppins e Playfair Display;
+- font di sistema oppure dodici Google Fonts caricabili localmente o da Google;
 - pagina Sistema con aggiornamenti, manifest e Compatibility Lab.
 
 La procedura completa per creare le applicazioni nei portali dei provider,
@@ -71,6 +71,36 @@ La modifica dell'URL riduce scansioni e tentativi automatici, ma non viene
 presentata come protezione completa: opera insieme a rate limit, CAPTCHA, 2FA,
 audit, aggiornamenti e password robuste. Una chiave di recovery separata evita
 che un errore di rewrite impedisca l'accesso amministrativo.
+
+## Configurazione CAPTCHA
+
+Nella scheda **Sicurezza**, la voce **Verifica anti-bot** permette di scegliere:
+
+- **Cloudflare Turnstile**, consigliato quando si desidera una verifica poco
+  invasiva;
+- **Google reCAPTCHA v2**, utile quando il sito usa gia i servizi Google;
+- **Nessuna**, se la verifica viene gestita da un altro livello del sito.
+
+La chiave del sito e la chiave segreta si ottengono nel pannello del provider
+scelto, registrando il dominio WordPress. La chiave del sito puo essere mostrata
+nel browser; la chiave segreta deve rimanere riservata.
+
+Per installazioni gestite, la chiave segreta puo essere definita in
+`wp-config.php` senza salvarla nel database:
+
+```php
+define('SSLPP_CAPTCHA_SECRET', 'chiave-segreta-del-provider');
+```
+
+In questo caso il campo **Chiave segreta** puo rimanere vuoto. Smart Login usa
+la costante durante la verifica e non include il valore nelle esportazioni JSON.
+
+## Interfaccia orientata agli utenti
+
+Le impostazioni usano scelte guidate e nomi visibili invece di richiedere slug,
+costanti o identificatori tecnici. I dettagli avanzati restano nella KB secondo
+un approccio di **human-centered design** e **progressive disclosure**: prima si
+presenta l'azione utile, poi la spiegazione tecnica quando serve.
 
 ## Compatibilita
 
