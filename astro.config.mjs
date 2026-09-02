@@ -51,6 +51,8 @@ export default defineConfig({
 						{ label: 'Smart AI Gateway Hub', slug: 'prodotti/smart-ai-gateway-hub' },
 						{ label: 'Smart AI Writer', slug: 'prodotti/smart-ai-writer' },
 						{ label: 'Smart Cleaner Reset', slug: 'prodotti/smart-cleaner-reset' },
+						{ label: 'Smart Product Hub', slug: 'prodotti/smart-product-hub' },
+						{ label: 'Smart eCommerce Store', slug: 'prodotti/smart-ecommerce-store' },
 						{ label: 'Smart Site Login Personalize', slug: 'prodotti/smart-site-login-personalize' },
 						{ label: 'Smart License Manager', slug: 'prodotti/smart-license-manager' },
 					],
