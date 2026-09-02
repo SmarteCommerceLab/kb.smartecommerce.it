@@ -469,11 +469,11 @@
           "document_id": "prodotti-smart-site-login-personalize",
           "path": "prodotti/smart-site-login-personalize.md",
           "source_url": "https://kb.smartecommerce.it/prodotti/smart-site-login-personalize/",
-          "sha256": "bb6e9669607b9c66d01b1475adc21cd32a21ae2bcb2828c0a088c0d1cc06e518",
+          "sha256": "af3cd9b13ea57e539191b0825ba7997b9e4be52151f8e452539ec17ce8025e3e",
           "content_type": "text/markdown"
         }
       ],
-      "digest": "sha256:57221ae5243f6cd390a3945ae50c22d74597fd51953480723dd5c65f60cba4e4"
+      "digest": "sha256:89bd55cb2c49b011b139f3abef61d0099e4567d9cbc7d51483ae64ad77acf25a"
     },
     {
       "schema": "smart-ecommerce.knowledge-pack",

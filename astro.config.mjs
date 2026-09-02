@@ -68,6 +68,7 @@ export default defineConfig({
 						{ label: 'Guida sviluppatori', slug: 'guide/guida-sviluppatori' },
 						{ label: 'Authoring AI Canvas', slug: 'guide/authoring-ai-canvas' },
 						{ label: 'Governare SBM con una AI', slug: 'guide/smart-bootstrap-manager-ai-workflow' },
+						{ label: 'Configurare OAuth Smart Login', slug: 'guide/configurare-oauth-smart-login' },
 						{ label: 'Aggiornamento documentazione', slug: 'guide/aggiornare-documentazione' },
 						{ label: 'Checklist rilascio', slug: 'operazioni/checklist-rilascio' },
 					],

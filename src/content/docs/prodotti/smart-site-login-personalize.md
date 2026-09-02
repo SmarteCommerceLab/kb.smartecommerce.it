@@ -37,6 +37,23 @@ rimane invece la navigazione tra le aree principali del prodotto.
 - font di sistema oppure Inter, Roboto, Lato, Montserrat, Poppins e Playfair Display;
 - pagina Sistema con aggiornamenti, manifest e Compatibility Lab.
 
+La procedura completa per creare le applicazioni nei portali dei provider,
+recuperare i parametri e collaudare le callback e disponibile in
+[Configurare OAuth in Smart Login](/guide/configurare-oauth-smart-login/).
+
+## Valutazione commerciale
+
+Smart Login copre tre bisogni che normalmente richiedono prodotti separati:
+branding della login, identity federation e protezione degli accessi. Il
+posizionamento Premium autonomo e quindi coerente anche fuori dallo stack Smart
+eCommerce. Il vantaggio competitivo deve essere la configurazione guidata e
+governata, non il semplice numero di template o provider.
+
+Prima della commercializzazione sono prioritari test E2E reali dei quattro
+provider, passkey/WebAuthn, gestione e revoca sessioni, accessibilita WCAG 2.2 AA,
+matrice di compatibilita certificata e onboarding visuale versionato. Freemius
+resta l'ultimo passaggio, dopo la stabilizzazione funzionale e documentale.
+
 ## Font esterni e privacy
 
 I font possono usare il sistema, essere richiesti da Google oppure essere
