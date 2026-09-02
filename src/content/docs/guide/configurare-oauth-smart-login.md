@@ -99,6 +99,7 @@ Per un sito pubblico usa un ruolo privo di privilegi, normalmente Subscriber o C
 
 1. Salva la configurazione e apri **Configurazione guidata**.
 2. Verifica che il provider risulti pronto e che la callback sia raggiungibile.
+   Il controllo mostra separatamente credenziali richieste, callback HTTPS, raggiungibilita, stato HTTP e tempo di risposta. Non effettua una login e non invia i secret al browser o al provider durante la diagnosi.
 3. Prova una login reale in una finestra privata.
 4. Verifica utente creato o associato, ruolo assegnato e redirect finale.
 5. Prova anche rifiuto del consenso, email non consentita e account non registrato.
