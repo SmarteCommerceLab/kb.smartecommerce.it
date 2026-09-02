@@ -102,6 +102,23 @@ costanti o identificatori tecnici. I dettagli avanzati restano nella KB secondo
 un approccio di **human-centered design** e **progressive disclosure**: prima si
 presenta l'azione utile, poi la spiegazione tecnica quando serve.
 
+## Laboratorio Demo
+
+La pagina **Demo** permette di valutare un aspetto completo della login prima
+di applicarlo. I KPI iniziali mostrano layout attivo, risorse disponibili e
+presenza di un backup; gli scenari possono essere filtrati tra business,
+creativi ed essenziali.
+
+Selezionando un preset, l'anteprima mostra il risultato nei formati desktop,
+tablet e mobile e confronta layout, posizione e raggio con la configurazione
+corrente. **Applica preset** salva prima una copia delle impostazioni esistenti,
+carica automaticamente le immagini necessarie e applica il nuovo stile. Il
+pulsante di ripristino recupera l'ultima configurazione salvata.
+
+Le risorse manuali, il catalogo tecnico completo e gli esempi JSON restano in
+sezioni richiudibili: non servono nel normale percorso guidato, ma rimangono
+disponibili per supporto e integrazioni.
+
 ## Compatibilita
 
 Il Compatibility Lab rileva WordPress multisite, WooCommerce, BuddyPress,
