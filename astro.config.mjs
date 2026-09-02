@@ -71,6 +71,7 @@ export default defineConfig({
 						{ label: 'Authoring AI Canvas', slug: 'guide/authoring-ai-canvas' },
 						{ label: 'Governare SBM con una AI', slug: 'guide/smart-bootstrap-manager-ai-workflow' },
 						{ label: 'Configurare OAuth Smart Login', slug: 'guide/configurare-oauth-smart-login' },
+						{ label: 'Usare Smart Reset', slug: 'guide/smart-reset' },
 						{ label: 'Aggiornamento documentazione', slug: 'guide/aggiornare-documentazione' },
 						{ label: 'Checklist rilascio', slug: 'operazioni/checklist-rilascio' },
 					],

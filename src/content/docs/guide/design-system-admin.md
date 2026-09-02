@@ -40,3 +40,11 @@ compatta e il contenuto mantiene margini e leggibilita coerenti.
 Il contratto si applica a Smart Builder Site, Smart Bootstrap Manager, Smart
 Login, Smart eCommerce Selective Cleanup e al tema AI-HTML. Le funzioni proprie
 di ciascun prodotto restano separate dal guscio condiviso.
+
+## Smart Reset
+
+Le pagine di ripristino seguono uno standard unico denominato **Smart Reset**:
+elenco verticale degli ambiti, distinzione tra ripristino completo e selettivo,
+conteggio delle scelte, conferma testuale `RESET`, pulsante inizialmente
+disabilitato e snapshot preventivo quando il prodotto lo supporta. Consulta
+[Usare Smart Reset](/guide/smart-reset/) per gli ambiti disponibili.
